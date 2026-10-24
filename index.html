@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#112d46">
+  <meta name="description" content="Tiên Môn Linh Vân — game quản lý tiên môn, thâu mua đan dược, bày linh các và phục vụ khách hữu duyên.">
+  <link rel="icon" href="game/index.icon.png">
+  <title>Tiên Môn Linh Vân</title>
+  <style>
+    :root{--ink:#173b56;--muted:#66859a;--pink:#d979a6}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Georgia,'Times New Roman',serif;background:radial-gradient(circle at 18% 0%,#fff 0 18%,transparent 45%),linear-gradient(145deg,#e7f8fc,#f9f3f8 52%,#d9edf4);min-height:100vh}
+    .shell{max-width:1180px;margin:0 auto;padding:24px 18px 48px}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:8px 2px 22px}.brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.08em}.seal{width:42px;height:42px;border:2px solid var(--pink);border-radius:50%;display:grid;place-items:center;color:var(--pink);font-size:20px;background:#fff9}.nav a{color:var(--ink);text-decoration:none;border-bottom:1px solid #9dcbd9;padding-bottom:3px;font:14px system-ui,sans-serif}
+    .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center;padding:34px 0 30px}.eyebrow{color:var(--pink);font:700 13px system-ui,sans-serif;letter-spacing:.2em}.hero h1{font-size:clamp(38px,6vw,72px);line-height:.98;margin:13px 0 18px;letter-spacing:.03em}.hero p{max-width:600px;color:var(--muted);font:16px/1.65 system-ui,sans-serif}.cta{display:inline-flex;align-items:center;gap:10px;margin-top:12px;padding:14px 21px;border-radius:999px;background:var(--ink);color:#fff;text-decoration:none;font:700 14px system-ui,sans-serif;box-shadow:0 10px 25px #173b5630}.hero-art{min-height:290px;border-radius:28px;border:1px solid #fff;background:linear-gradient(145deg,#dff7ff99,#fff7fbcc),url('game/bg.jpg') center/cover;box-shadow:0 20px 60px #173b5620;position:relative;overflow:hidden}.hero-art:after{content:'灵';position:absolute;right:12%;top:10%;font-size:180px;color:#ffffff66;font-weight:700;transform:rotate(-12deg)}.art-card{position:absolute;left:26px;bottom:24px;background:#ffffffdb;border:1px solid #fff;border-radius:18px;padding:16px 18px;box-shadow:0 12px 30px #173b5620}.art-card strong{display:block;font-size:21px}.art-card span{color:var(--muted);font:12px system-ui,sans-serif}
+    .features{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:8px 0 32px}.feature{padding:18px;border:1px solid #b7dce8;background:#ffffffa8;border-radius:18px}.feature b{display:block;margin-bottom:7px}.feature span{font:13px/1.5 system-ui,sans-serif;color:var(--muted)}
+    .game-wrap{background:#112d46;padding:14px;border-radius:28px;box-shadow:0 24px 70px #173b5630}.game-head{display:flex;align-items:center;justify-content:space-between;color:#e9f8fb;padding:7px 8px 14px;font:14px system-ui,sans-serif}.game-head small{color:#a9dff0}.game-frame{background:#000;border-radius:18px;overflow:hidden;min-height:680px}.game-frame iframe{display:block;width:100%;height:760px;border:0;background:#000}.game-note{padding:12px 8px 0;color:#a9dff0;font:12px/1.5 system-ui,sans-serif}.footer{display:flex;justify-content:space-between;gap:16px;margin-top:34px;padding-top:18px;border-top:1px solid #b7dce8;color:var(--muted);font:12px system-ui,sans-serif}
+    @media (max-width:760px){.shell{padding:14px 12px 32px}.nav{padding-bottom:10px}.nav a{display:none}.hero{grid-template-columns:1fr;padding-top:28px;gap:18px}.hero-art{min-height:210px}.features{grid-template-columns:repeat(2,1fr)}.game-wrap{padding:9px;border-radius:20px}.game-frame{min-height:650px}.game-frame iframe{height:720px}.footer{display:block}.footer span{display:block;margin-top:8px}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <nav class="nav"><div class="brand"><div class="seal">仙</div><span>TIÊN MÔN LINH VÂN</span></div><a href="#choi">Vào tiên môn ↓</a></nav>
+    <section class="hero">
+      <div><div class="eyebrow">MỞ CỬA · BÀY KỆ · ĐÓN KHÁCH</div><h1>Một ngày làm chủ tiên môn.</h1><p>Thâu mua linh dược, sắp xếp Linh Các, phục vụ khách hữu duyên và từng bước gây dựng danh vọng giữa chốn tu tiên.</p><a class="cta" href="#choi">Chơi bản cập nhật 24/10 <span>→</span></a></div>
+      <div class="hero-art"><div class="art-card"><strong>Ngày 1 · 08:00</strong><span>Tiên môn đang chờ được mở cửa</span></div></div>
+    </section>
+    <section class="features" aria-label="Tính năng"><div class="feature"><b>Thâu mua</b><span>Chọn hàng, số lượng và giá vốn.</span></div><div class="feature"><b>Linh Các</b><span>Bày kệ, định giá và quản lý tồn kho.</span></div><div class="feature"><b>Nhân viên</b><span>Chiêu mộ tạp dịch và xây đội ngũ.</span></div><div class="feature"><b>Danh vọng</b><span>Phục vụ khách, đạt thành tựu, mở rộng tiên môn.</span></div></section>
+    <section id="choi" class="game-wrap"><div class="game-head"><strong>TIÊN MÔN LINH VÂN · BẢN WEB</strong><small>Build 24/10/2026</small></div><div class="game-frame"><iframe title="Game Tiên Môn Linh Vân" src="game/index.html" allow="autoplay; fullscreen" loading="eager"></iframe></div><div class="game-note">Nếu game chưa hiện, hãy chờ vài giây để tải dữ liệu WebAssembly. Tiến trình được lưu trong trình duyệt của bạn.</div></section>
+    <footer class="footer"><span>Tiên Môn Linh Vân · quản lý tiên môn cổ trang</span><span>Chơi trực tiếp trên trình duyệt · không cần cài đặt</span></footer>
+  </main>
+</body>
+</html>
