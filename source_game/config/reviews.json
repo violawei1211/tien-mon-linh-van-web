@@ -1,0 +1,552 @@
+[
+ {
+  "stars": 5,
+  "product": "Bổ Huyết Đan",
+  "text": "Bổ Huyết Đan còn ấm linh khí, uống xong khí huyết lưu thông như suối xuân. Đáng từng đồng."
+ },
+ {
+  "stars": 3,
+  "product": "Ích Khí Đan",
+  "text": "Ích Khí Đan dùng được, nhưng viên hơi nhỏ so với tiệm ở Lạc Hà Cốc."
+ },
+ {
+  "stars": 5,
+  "product": "Thanh Tâm Hoàn",
+  "text": "Đêm qua tâm ma quấy nhiễu, một viên Thanh Tâm Hoàn là ngủ một mạch tới sáng."
+ },
+ {
+  "stars": 2,
+  "product": "Hồi Linh Tán",
+  "text": "Hồi Linh Tán có tác dụng, khổ nỗi chờ gần nửa nén nhang mới tới lượt."
+ },
+ {
+  "stars": 4,
+  "product": "Tịch Cốc Đan",
+  "text": "Tịch Cốc Đan rẻ mà no bụng ba ngày, hợp với kẻ bế quan như ta. Chỉ tiếc vị hơi đắng."
+ },
+ {
+  "stars": 1,
+  "product": "Giải Độc Hoàn",
+  "text": "Ta bị rắn độc cắn, cần Giải Độc Hoàn gấp, thế mà chưởng quầy đưa nhầm Bổ Huyết Đan. Suýt mất mạng!"
+ },
+ {
+  "stars": 5,
+  "product": "Khứ Uế Đan",
+  "text": "Khứ Uế Đan giá chỉ vài linh thạch mà thanh tẩy kinh mạch sạch tinh. Mua mười viên cũng không xót."
+ },
+ {
+  "stars": 4,
+  "product": "Thần Thú Huyết Đan",
+  "text": "Thần Thú Huyết Đan đúng là hàng tinh luyện, huyết khí bừng bừng. Giá cao nhưng xứng đáng."
+ },
+ {
+  "stars": 2,
+  "product": "Tụ Khí Tán",
+  "text": "Tụ Khí Tán lần này lẫn bột, hấp thu chậm hơn lần trước nhiều."
+ },
+ {
+  "stars": 5,
+  "product": "Trúc Cơ Đan",
+  "text": "Nhờ Trúc Cơ Đan của tiên môn mà ta đột phá Trúc Cơ thuận lợi. Đại ân không quên!"
+ },
+ {
+  "stars": 3,
+  "product": "Thanh Tâm Hỏa Liên Đan",
+  "text": "Thanh Tâm Hỏa Liên Đan tốt, nhưng giá bán gần chạm trần, tán tu như ta mua hơi xót."
+ },
+ {
+  "stars": 5,
+  "product": "Thanh Phong Kiếm",
+  "text": "Thanh Phong Kiếm nhẹ như lông vũ, vung lên gió rít. Đệ tử ngoại môn dùng là tuyệt."
+ },
+ {
+  "stars": 1,
+  "product": "Thần Hành Phù",
+  "text": "Thần Hành Phù vừa dán đã tắt linh quang, chạy chưa được trăm trượng. Hàng sắp tiêu tán mà vẫn bán!"
+ },
+ {
+  "stars": 4,
+  "product": "Đại Hoàn Đan",
+  "text": "Đại Hoàn Đan bồi bổ nguyên khí rất rõ, lần sau ta mua cả lô."
+ },
+ {
+  "stars": 3,
+  "product": "Hỏa Long Thương",
+  "text": "Hỏa Long Thương uy lực có thừa, mỗi tội hơi nặng tay với nữ tu."
+ },
+ {
+  "stars": 5,
+  "product": "Huyền Thiết Trọng Kiếm",
+  "text": "Huyền Thiết Trọng Kiếm chém đá như chém đậu phụ, đúng hàng tinh luyện thật."
+ },
+ {
+  "stars": 2,
+  "product": "Lưỡng Nghi Kính",
+  "text": "Lưỡng Nghi Kính soi được âm dương, nhưng mặt kính có vết xước nhỏ. Hơi thất vọng."
+ },
+ {
+  "stars": 4,
+  "product": "Hỏa Cầu Phù",
+  "text": "Hỏa Cầu Phù nổ đẹp, đốt sạch một ổ yêu lang. Có điều phải chờ khá lâu."
+ },
+ {
+  "stars": 1,
+  "product": "Giải Độc Hoàn",
+  "text": "Ta hỏi Giải Độc Hoàn, lại bị đưa nhầm U Minh Độc Đan. Ngươi muốn hại ta sao?"
+ },
+ {
+  "stars": 5,
+  "product": "Huyết Nguyệt Đao",
+  "text": "Huyết Nguyệt Đao sắc lạnh, ánh đỏ dưới trăng nhìn mà rợn người. Quá đẹp."
+ },
+ {
+  "stars": 4,
+  "product": "Thất Tinh Hợp Nhất Đỉnh",
+  "text": "Thất Tinh Hợp Nhất Đỉnh luyện đan đều lửa, tỉ lệ thành đan tăng hẳn. Giá thì đau ví thật."
+ },
+ {
+  "stars": 3,
+  "product": "Tử Điện Trùy",
+  "text": "Tử Điện Trùy mạnh, nhưng tia điện hay bắn ngược, phải tập lâu mới quen."
+ },
+ {
+  "stars": 5,
+  "product": "Ẩn Nỏ Phù",
+  "text": "Ẩn Nỏ Phù giấu tên trong tay áo, kẻ địch không kịp trở tay. Chưởng quầy tư vấn rất tận tâm."
+ },
+ {
+  "stars": 4,
+  "product": "Xích Huyết Long Đan",
+  "text": "Xích Huyết Long Đan nóng như nuốt lửa, nhưng tu vi tăng vọt. Đáng đồng tiền."
+ },
+ {
+  "stars": 2,
+  "product": "Kim Cương Hộ Thân Phù",
+  "text": "Kim Cương Hộ Thân Phù đỡ được một chưởng rồi vỡ. Hơi mỏng so với giá."
+ },
+ {
+  "stars": 5,
+  "product": "Băng Phong Thiên Lý Phù",
+  "text": "Băng Phong Thiên Lý Phù đưa ta vượt ngàn dặm chỉ trong một canh giờ. Tuyệt diệu!"
+ },
+ {
+  "stars": 3,
+  "product": "Thái Hư Trừ Tà Phù",
+  "text": "Thái Hư Trừ Tà Phù đuổi tà được, nhưng lá phù bị gấp nếp, nhìn kém sang."
+ },
+ {
+  "stars": 5,
+  "product": "Tụ Linh Trận Bàn",
+  "text": "Tụ Linh Trận Bàn đặt giữa động phủ, linh khí đặc như sương sớm."
+ },
+ {
+  "stars": 5,
+  "product": "Cửu Trùng Đan",
+  "text": "Cửu Trùng Đan là hàng Thượng phẩm thực thụ. Sư phụ ta uống xong khen không ngớt."
+ },
+ {
+  "stars": 1,
+  "product": "Bổ Thiên Đan",
+  "text": "Mua Bổ Thiên Đan giá cắt cổ mà chưởng quầy giao nhầm sang Đại Hoàn Đan. Không thể chấp nhận!"
+ },
+ {
+  "stars": 4,
+  "product": "Tụ Linh Phù",
+  "text": "Tụ Linh Phù dán ở cửa phòng tu luyện rất hiệu quả. Mong giá mềm hơn chút."
+ },
+ {
+  "stars": 3,
+  "product": "Ẩn Sương Sát Trận",
+  "text": "Ẩn Sương Sát Trận giăng sương đẹp mắt, nhưng sát khí còn yếu."
+ },
+ {
+  "stars": 5,
+  "product": "Bát Quái Hộ Sơn Trận",
+  "text": "Bát Quái Hộ Sơn Trận dựng lên, cả tông môn yên tâm ngủ ngon."
+ },
+ {
+  "stars": 2,
+  "product": "Tứ Phượng Sát Trận",
+  "text": "Tứ Phượng Sát Trận hoành tráng, nhưng ta chờ lâu quá nên bỏ lỡ giờ lành bày trận."
+ },
+ {
+  "stars": 4,
+  "product": "Mộc Điểu Phi Xa",
+  "text": "Mộc Điểu Phi Xa chở được ba người, bay êm. Mỗi tội cánh gỗ kêu cót két."
+ },
+ {
+  "stars": 5,
+  "product": "Bát Truyển Kim Đan",
+  "text": "Bát Truyển Kim Đan, nghe danh đã lâu, nay mới được dùng. Kim quang hộ thể suốt ba ngày!"
+ },
+ {
+  "stars": 4,
+  "product": "Hỗn Nguyên Phù Đồ Tháp",
+  "text": "Hỗn Nguyên Phù Đồ Tháp trấn yêu rất mạnh, chỉ là tháp hơi to, mang theo bất tiện."
+ },
+ {
+  "stars": 1,
+  "product": "Lục Hợp Trừ Ma Trận",
+  "text": "Lục Hợp Trừ Ma Trận bày xong ma vẫn vào, linh văn bị mờ. Hàng tồn kho chăng?"
+ },
+ {
+  "stars": 3,
+  "product": "Cửu Tinh Liên Châu Trận",
+  "text": "Cửu Tinh Liên Châu Trận đẹp như bầu trời đêm, nhưng phải học cả tuần mới bày được."
+ },
+ {
+  "stars": 5,
+  "product": "Thái Cực Phong Ấn Trận",
+  "text": "Thái Cực Phong Ấn Trận khóa chặt yêu vương. Tiên môn này đáng tin."
+ },
+ {
+  "stars": 2,
+  "product": "Thanh Vũ Sí",
+  "text": "Thanh Vũ Sí bay được, nhưng lông vũ rụng dọc đường như gà mái thay lông."
+ },
+ {
+  "stars": 5,
+  "product": "Phách Thiên Cự Phủ",
+  "text": "Phách Thiên Cự Phủ một nhát chẻ đôi tảng đá ngàn cân. Đại trượng phu phải có món này!"
+ },
+ {
+  "stars": 4,
+  "product": "Tru Tiên Kiếm Phôi",
+  "text": "Tru Tiên Kiếm Phôi kiếm khí lạnh thấu xương, chỉ tiếc chưa luyện thành kiếm hoàn chỉnh."
+ },
+ {
+  "stars": 3,
+  "product": "Vân Vụ Thuyền",
+  "text": "Vân Vụ Thuyền lướt mây êm, nhưng sương mù dày quá, ta lạc mất nửa ngày."
+ },
+ {
+  "stars": 5,
+  "product": "Phi Vũ Thảm",
+  "text": "Phi Vũ Thảm mềm như mây, nằm lên vừa bay vừa ngủ được. Thích quá!"
+ },
+ {
+  "stars": 4,
+  "product": "Tuyết Vũ Linh Hồ",
+  "text": "Tuyết Vũ Linh Hồ đáng yêu vô cùng, chỉ hơi nhõng nhẽo đòi ăn suốt."
+ },
+ {
+  "stars": 1,
+  "product": "Thất Thải Linh Lộc",
+  "text": "Thất Thải Linh Lộc giao tới thì ủ rũ, bảy màu chỉ còn ba. Nuôi kiểu gì vậy?"
+ },
+ {
+  "stars": 5,
+  "product": "Vạn Lôi Phù",
+  "text": "Vạn Lôi Phù giáng sấm rền trời, cả ổ ma tu tan tác. Không còn gì để chê."
+ },
+ {
+  "stars": 3,
+  "product": "Di Hình Huyễn Ảnh Phù",
+  "text": "Di Hình Huyễn Ảnh Phù tạo phân thân giống thật, nhưng phân thân hay đi lạc hướng."
+ },
+ {
+  "stars": 4,
+  "product": "Hỏa Vũ Sí",
+  "text": "Hỏa Vũ Sí cháy rực rỡ, bay oai phong. Có điều vạt áo ta bị sém mất một góc."
+ },
+ {
+  "stars": 2,
+  "product": "Hắc Bạch Sí",
+  "text": "Hắc Bạch Sí đẹp, nhưng giá đặt quá cao, chạm cả giá trần. Ta suýt bỏ về."
+ },
+ {
+  "stars": 5,
+  "product": "Tử Diêm Hạc",
+  "text": "Tử Diêm Hạc thuần tính, chở ta qua biển lửa mà không sợ chút nào."
+ },
+ {
+  "stars": 5,
+  "product": "Phá Giới Phù",
+  "text": "Phá Giới Phù xé toạc kết giới bí cảnh dễ như xé giấy. Đáng giá từng viên linh thạch."
+ },
+ {
+  "stars": 4,
+  "product": "Lưỡng Nghi Sinh Tử Trận",
+  "text": "Lưỡng Nghi Sinh Tử Trận vận hành chuẩn xác, chỉ tiếc tài liệu hướng dẫn hơi sơ sài."
+ },
+ {
+  "stars": 1,
+  "product": "Vô Tung Huyễn Trận",
+  "text": "Vô Tung Huyễn Trận vô tung thật, ta bày xong chính ta cũng không tìm thấy đường ra!"
+ },
+ {
+  "stars": 4,
+  "product": "Thanh Mộc Linh Quy",
+  "text": "Thanh Mộc Linh Quy chậm mà chắc, mai rùa đỡ được cả lôi kiếp nhỏ."
+ },
+ {
+  "stars": 5,
+  "product": "Hỗn Nguyên Phạt Thiên Trận",
+  "text": "Hỗn Nguyên Phạt Thiên Trận vừa mở, trời đất đổi màu. Danh bất hư truyền."
+ },
+ {
+  "stars": 3,
+  "product": "Cửu Tiêu Lâu Thuyền",
+  "text": "Cửu Tiêu Lâu Thuyền sang trọng như cung điện, nhưng muốn điều khiển phải có ba người."
+ },
+ {
+  "stars": 4,
+  "product": "Bạch Lôi Ảnh Báo",
+  "text": "Bạch Lôi Ảnh Báo nhanh như chớp, chỉ hơi khó thuần, ta bị cào hai vết."
+ },
+ {
+  "stars": 2,
+  "product": "Trứng Nguyệt Quang Ngư",
+  "text": "Trứng Nguyệt Quang Ngư ấp mãi chưa nở. Chưởng quầy bảo chờ thêm ba tháng nữa…"
+ },
+ {
+  "stars": 5,
+  "product": "Kim Cang Thái Dương Ưng",
+  "text": "Kim Cang Thái Dương Ưng sải cánh che cả mặt trời. Đi đâu ai cũng phải ngoái nhìn."
+ },
+ {
+  "stars": 4,
+  "product": "Lôi Minh Sí",
+  "text": "Lôi Minh Sí bay nhanh nhất ta từng thấy, chỉ tiếng sấm hơi ồn khi đáp xuống."
+ },
+ {
+  "stars": 5,
+  "product": "Hồng Mông Phượng Hoàng Sí",
+  "text": "Hồng Mông Phượng Hoàng Sí, cả đời tu tiên mới gặp được một lần. Cảm tạ tiên môn!"
+ },
+ {
+  "stars": 1,
+  "product": "Trứng Huyễn Linh Long",
+  "text": "Trứng Huyễn Linh Long đắt nhất thành mà giao muộn cả canh giờ, kiên nhẫn của ta cạn sạch."
+ },
+ {
+  "stars": 3,
+  "product": "Trứng U Lan Tinh Thú",
+  "text": "Trứng U Lan Tinh Thú tỏa hương thơm dịu, nhưng vỏ có vết nứt nhỏ, mong không ảnh hưởng."
+ },
+ {
+  "stars": 5,
+  "product": "",
+  "text": "Chưởng quầy niềm nở, giao hàng nhanh như gió. Tiên môn này ta sẽ quay lại."
+ },
+ {
+  "stars": 1,
+  "product": "",
+  "text": "Đứng chờ tới mỏi chân mà không ai đoái hoài. Thôi, hẹn lần sau, mà chắc không có lần sau."
+ },
+ {
+  "stars": 4,
+  "product": "",
+  "text": "Kệ bày gọn gàng, dễ tìm, giá cả rõ ràng. Mong có thêm nhiều vật phẩm hơn."
+ },
+ {
+  "stars": 2,
+  "product": "",
+  "text": "Giá ở đây đắt hơn chợ thành trì cả mấy lần. Hàng tốt thật, nhưng ví ta không chịu nổi."
+ },
+ {
+  "stars": 5,
+  "product": "",
+  "text": "Đúng hôm Tin tức thành trì báo, tiên môn có sẵn hàng ngay. Chưởng quầy tính toán giỏi quá!"
+ },
+ {
+  "stars": 1,
+  "product": "",
+  "text": "Đã giao nhầm hai lần trong một buổi. Nhân viên mới chăng?"
+ },
+ {
+  "stars": 3,
+  "product": "",
+  "text": "Hàng ổn, giá ổn, chỉ là khách đông quá, chen chúc như chợ phiên."
+ },
+ {
+  "stars": 5,
+  "product": "",
+  "text": "Mua lẻ một viên đan rẻ nhất mà vẫn được tiếp đón như khách VIP. Cảm động."
+ },
+ {
+  "stars": 2,
+  "product": "",
+  "text": "Một nửa số hàng trên kệ sắp tiêu tán, mua về sợ không kịp dùng."
+ },
+ {
+  "stars": 4,
+  "product": "",
+  "text": "Thứ ta cần đều có đủ, chỉ chờ hơi lâu một chút. Nhìn chung hài lòng."
+ },
+ {
+  "stars": 1,
+  "product": "",
+  "text": "Ta là khách VIP mà phải đứng sau năm người. Thật mất mặt!"
+ },
+ {
+  "stars": 5,
+  "product": "",
+  "text": "Tiên môn nhỏ mà có võ, hàng tuyển chọn kỹ, chưa từng gặp món nào hỏng."
+ },
+ {
+  "stars": 3,
+  "product": "",
+  "text": "Không tệ, không quá xuất sắc. Một tiệm đan dược bình thường giữa thành."
+ },
+ {
+  "stars": 1,
+  "product": "",
+  "text": "Kệ trống trơn gần hết, hỏi món nào cũng hết hàng. Mở cửa làm gì?"
+ },
+ {
+  "stars": 4,
+  "product": "",
+  "text": "Giá hợp lý, chưởng quầy vui tính. Nếu có chỗ ngồi chờ thì ta cho năm sao."
+ },
+ {
+  "stars": 5,
+  "product": "Hồi Linh Tán",
+  "text": "Sáng mua Hồi Linh Tán, chiều đã hồi đầy linh lực đi săn yêu thú. Thần tốc!"
+ },
+ {
+  "stars": 2,
+  "product": "Thanh Tâm Hoàn",
+  "text": "Thanh Tâm Hoàn có mùi hơi lạ, uống xong tâm thì tĩnh mà bụng lại sôi."
+ },
+ {
+  "stars": 4,
+  "product": "Tịch Cốc Đan",
+  "text": "Mua Tịch Cốc Đan cho cả đoàn thương nhân, ai cũng khen no lâu. Bớt chút thì càng tốt."
+ },
+ {
+  "stars": 1,
+  "product": "",
+  "text": "Chưởng quầy mải nói chuyện với khách VIP, để ta đứng như trụ đá bên quầy."
+ },
+ {
+  "stars": 5,
+  "product": "Bổ Huyết Đan",
+  "text": "Mẫu thân ta yếu người, dùng Bổ Huyết Đan nửa tháng nay đã tự ra vườn hái thuốc được."
+ },
+ {
+  "stars": 3,
+  "product": "Trúc Cơ Đan",
+  "text": "Trúc Cơ Đan hiệu quả, nhưng hộp đựng sơ sài, mang về đã vỡ mất một viên."
+ },
+ {
+  "stars": 4,
+  "product": "Hỏa Cầu Phù",
+  "text": "Hỏa Cầu Phù giá rẻ, bắn chuẩn, đệ tử luyện tập dùng rất hợp."
+ },
+ {
+  "stars": 2,
+  "product": "Huyết Nguyệt Đao",
+  "text": "Huyết Nguyệt Đao đẹp thì đẹp, nhưng chuôi đao quá lạnh, cầm lâu tê cả tay."
+ },
+ {
+  "stars": 5,
+  "product": "Lưỡng Nghi Kính",
+  "text": "Lưỡng Nghi Kính soi ra cả ảo ảnh tâm ma, giúp ta vượt qua tâm kiếp. Đa tạ!"
+ },
+ {
+  "stars": 1,
+  "product": "Kim Cương Hộ Thân Phù",
+  "text": "Ta mua Kim Cương Hộ Thân Phù, mở ra lại là Băng Phong Thiên Lý Phù. Đúng là chạy ngàn dặm vì tức!"
+ },
+ {
+  "stars": 4,
+  "product": "Tử Điện Trùy",
+  "text": "Tử Điện Trùy đánh trúng là yêu thú tê liệt ngay, chỉ cần thêm bao da để đeo cho tiện."
+ },
+ {
+  "stars": 3,
+  "product": "Xích Huyết Long Đan",
+  "text": "Xích Huyết Long Đan mạnh quá, ta phải chia làm ba lần uống. Nên ghi chú liều dùng rõ hơn."
+ },
+ {
+  "stars": 5,
+  "product": "Bát Quái Hộ Sơn Trận",
+  "text": "Đặt Bát Quái Hộ Sơn Trận cho thôn nhỏ dưới chân núi, yêu thú không dám bén mảng nữa."
+ },
+ {
+  "stars": 2,
+  "product": "Mộc Điểu Phi Xa",
+  "text": "Mộc Điểu Phi Xa bay được nửa đường thì chao đảo, ta phải hạ cánh khẩn cấp xuống ruộng lúa."
+ },
+ {
+  "stars": 4,
+  "product": "Thanh Vũ Sí",
+  "text": "Thanh Vũ Sí nhẹ, gấp gọn bỏ túi được. Màu xanh hơi nhạt so với tranh vẽ."
+ },
+ {
+  "stars": 1,
+  "product": "Hỗn Nguyên Phù Đồ Tháp",
+  "text": "Hỗn Nguyên Phù Đồ Tháp giá trên trời mà giao chậm, kiên nhẫn của ta đã cạn từ lâu."
+ },
+ {
+  "stars": 5,
+  "product": "Tuyết Vũ Linh Hồ",
+  "text": "Tuyết Vũ Linh Hồ nằm cuộn trong lòng ta như cục bông, con gái ta mừng phát khóc."
+ },
+ {
+  "stars": 3,
+  "product": "Phi Vũ Thảm",
+  "text": "Phi Vũ Thảm bay êm, nhưng gặp gió lớn là cuộn mép, phải ôm chặt mới không rơi."
+ },
+ {
+  "stars": 4,
+  "product": "Vạn Lôi Phù",
+  "text": "Vạn Lôi Phù dùng một lần nhớ cả đời, chỉ là tiếng sấm làm hàng xóm kéo đến hỏi thăm."
+ },
+ {
+  "stars": 2,
+  "product": "Tử Diêm Hạc",
+  "text": "Tử Diêm Hạc tính khí thất thường, hôm nay chở, mai lại mổ ta. Cần dạy thêm."
+ },
+ {
+  "stars": 5,
+  "product": "Phá Giới Phù",
+  "text": "Phá Giới Phù giúp cả đoàn thoát khỏi bí cảnh sụp đổ trong gang tấc. Ân cứu mạng!"
+ },
+ {
+  "stars": 3,
+  "product": "Thanh Mộc Linh Quy",
+  "text": "Thanh Mộc Linh Quy dễ nuôi, nhưng chậm tới mức đi một vòng sân hết nửa ngày."
+ },
+ {
+  "stars": 4,
+  "product": "Bạch Lôi Ảnh Báo",
+  "text": "Bạch Lôi Ảnh Báo chạy cùng ta qua ba ngọn núi không thở dốc. Chỉ hơi kén ăn."
+ },
+ {
+  "stars": 1,
+  "product": "Trứng Nguyệt Quang Ngư",
+  "text": "Trứng Nguyệt Quang Ngư mua về để ngoài trăng ba đêm vẫn không động tĩnh gì. Lừa đảo chăng?"
+ },
+ {
+  "stars": 5,
+  "product": "Cửu Tiêu Lâu Thuyền",
+  "text": "Cửu Tiêu Lâu Thuyền đưa cả gia tộc ta dự tiên hội Bồng Lai, ai nhìn cũng trầm trồ."
+ },
+ {
+  "stars": 3,
+  "product": "Lôi Minh Sí",
+  "text": "Lôi Minh Sí nhanh thật, nhưng mỗi lần cất cánh lại làm rụng hết lá cây quanh nhà."
+ },
+ {
+  "stars": 4,
+  "product": "",
+  "text": "Tiệm sạch sẽ, có mùi trầm thơm dịu. Ghé mua một viên đan mà muốn ngồi lại thưởng trà."
+ },
+ {
+  "stars": 2,
+  "product": "",
+  "text": "Hôm nay lại giá cao hơn hôm qua. Tiên môn đổi giá như thời tiết vậy?"
+ },
+ {
+  "stars": 5,
+  "product": "",
+  "text": "Ta tưởng hết hàng, ai ngờ chưởng quầy vừa thâu về kịp lúc, bày lên kệ liền tay."
+ },
+ {
+  "stars": 4,
+  "product": "Trứng U Lan Tinh Thú",
+  "text": "Mua Trứng U Lan Tinh Thú tặng sư muội, nàng vui cả tuần. Mong có thêm hộp quà kèm theo."
+ }
+]

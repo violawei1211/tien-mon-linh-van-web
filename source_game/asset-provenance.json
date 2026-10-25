@@ -1,0 +1,2631 @@
+{
+  "assets": {
+    "assets/audio/cash_register.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:6b021085e09d26760fd0f564e0b1f975d5ddc7a823a4ebeafbf4e119bfb58b62",
+      "shipped": true,
+      "size": 33560,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/audio/door_chime.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:d34b56578adaeef06e4ff2acb9b69ddf036a8ed95b100c1944c6c3dff48c486b",
+      "shipped": true,
+      "size": 45908,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/share/favicon.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "game-sharing.json",
+        "project.godot"
+      ],
+      "regions": [],
+      "sha256": "sha256:7fe4c7a0423946b8ec3fb60cf4a633302d7177c0a184a7ba56ced05caeb0f8fb",
+      "shipped": true,
+      "size": 8369,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "game-sharing.json",
+        "project.godot"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/share/og.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "game-sharing.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:3fc20f49148746fd696d9efe3457b0827bd640dd432ba5064772727bc7466b6f",
+      "shipped": true,
+      "size": 4280063,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "game-sharing.json"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/characters/runner.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:c88485773d6ff9361e036f37d8ac76fb77b8c3f7c041c3f52c8dd222adc8cc21",
+      "shipped": true,
+      "size": 68885,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/characters/sentinel.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:0d9fb751bca5507ba14f7090573e6605a94753390a9e7c53bf2f590f0a24918d",
+      "shipped": true,
+      "size": 64998,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/environment/backdrop.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:ec4ab7867e60fb483dd438459f587b478aac4c1e71ec4fe509ce74a18de34216",
+      "shipped": true,
+      "size": 971282,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/environment/foreground.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:4b6916024c69961fbfa7cdc929c68f547fea4561e61ebdb3405b3aba0efbd94d",
+      "shipped": true,
+      "size": 58603,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/fonts/Figtree-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:b3976c5969c8b1afd81dc3e314b61d8ffe3f3f58cf40906443105d330e6e0bdf",
+      "shipped": true,
+      "size": 23660,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/fonts/Mali-Bold.ttf": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "assets/template/fonts/mali_bold.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:3e2f421036c3f91eb5ef34650a5cd2116c737a542147769437a9856a455d4462",
+      "shipped": true,
+      "size": 112176,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/mali_bold.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/NotoSans-Bold.ttf": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "assets/template/fonts/ui_bold.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+      "shipped": true,
+      "size": 515752,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/ui_bold.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/NotoSans-Medium.ttf": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "assets/template/fonts/ui_medium.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:013ae62f5187c01e8752de78829ee7e1e0feaed6edee17db0dbf703988c99f3d",
+      "shipped": true,
+      "size": 507976,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/ui_medium.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/NotoSans-Regular.ttf": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "assets/template/fonts/ui_regular.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "shipped": true,
+      "size": 512672,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/ui_regular.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/NotoSansSC-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "id": "OFL-1.1",
+        "url": "https://openfontlicense.org/open-font-license-official-text/"
+      },
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
+      "shipped": true,
+      "size": 1869368,
+      "source": {
+        "name": "NotoSansSC-VF.subset.woff2",
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/fonts/display/Sora-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:438fbf4582548e76b266a738f2c11bcbd5137978f2d2e2f3aaabd49df69186f2",
+      "shipped": true,
+      "size": 41696,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/powerups/energy.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:ffd7906f240f928e785d7c19a9e7a7b5dfab0d7483be5205dda3e4ba17ebe06a",
+      "shipped": true,
+      "size": 50950,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/powerups/magnet.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:6e7354aa6510a462717218b09b9d784bb161b87878bff62ef4f2a9d03c053de7",
+      "shipped": true,
+      "size": 53724,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/powerups/overdrive.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:6a48a85886c0551c1af0df576b0225f0ec3ae86b326fd84fc614083fbfe2908b",
+      "shipped": true,
+      "size": 37238,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/powerups/shield.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:8cebf0cf730ca35c8c8697192ef78121c926442328a0725e0bd3e31701d64f13",
+      "shipped": true,
+      "size": 39659,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/powerups/slow_field.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:96874c000866b2e7503b40da73888afb918ae36e462f51488415157da52a8637",
+      "shipped": true,
+      "size": 49145,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/ui/loading-background.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [
+        "project.godot"
+      ],
+      "regions": [],
+      "sha256": "sha256:16dde3061f4e60802f8f0d1a6b875e72b6add05192237b03fef1fd313968a13a",
+      "shipped": true,
+      "size": 473356,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "project.godot"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/ui/pause_glass.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:c88a4725838df85e72c7270865848f275b62c525c5679a2a8b7ecefb1af82d4b",
+      "shipped": true,
+      "size": 115691,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/template/ui/title_glass.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "template",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:8860db07768f093d4effea10b51431f76a1552d4bc7fd4e57757f189c51f0429",
+      "shipped": true,
+      "size": 155592,
+      "source": {
+        "starterId": "game-generic-v56"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/boutique/characters/character_01.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:20948ccabcda822567fb96038b074aa628161b1e68a4abccf28061d32cbfab54",
+      "shipped": true,
+      "size": 301644,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 1
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_02.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:31eec200ea743528d56a9eef175e464ef6e990d3a3c971bf7185a2f31f5e8d15",
+      "shipped": true,
+      "size": 1458251,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 2
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_03.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:e27a0c91e7013b1287a9a28d4a9e57e1bd099a23d369dcf1c5afc633522a9c98",
+      "shipped": true,
+      "size": 245645,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 3
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_04.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:2e4959217a1c0b1384d860c810335525dbd79d514666555d04527c94c2cbb221",
+      "shipped": true,
+      "size": 280134,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 3
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_05.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:cc01163fcdde56de4ccbce89dd53b43b8ae6da4724052cce1c94d1212354890b",
+      "shipped": true,
+      "size": 258894,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 4
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_06.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:afc0222aa7725623fd77190b6719650adffda31b38b19a203824b8498be6ab69",
+      "shipped": true,
+      "size": 275004,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 4
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_07.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:4d21237237979a429254650100387e9ba8b492f19b85098cb0d8f18ced3a8e30",
+      "shipped": true,
+      "size": 259490,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 5
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_08.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:7960b172301c88fc69d68a263984182cf116e600978710ed0eaf6b9d47d6932a",
+      "shipped": true,
+      "size": 295026,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 6
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_09.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:a00458fe997771ad358fd577394eca19b81836eb30787e906ca2c68663d96c4c",
+      "shipped": true,
+      "size": 295855,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 7
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_10.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:81acc24eb9a5bf59e572f89cca70d5c17801d636cb9597ab039a8d615e7b13db",
+      "shipped": true,
+      "size": 294862,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 7
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_11.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:d54355c4f0907978d5ee93c477c528348951c9c2f04521c2b720d900de7535e1",
+      "shipped": true,
+      "size": 283485,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 8
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_12.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:ec3ea462ae5b903ad74a556e6805f6255b7d3c8a30bf35890434c6191c412caa",
+      "shipped": true,
+      "size": 260232,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 8
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_13.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:0b6e0f1621bd31ae7a9c486d233d5f9688fdab4ac4d60315f3fc30dc9a1659b2",
+      "shipped": true,
+      "size": 264820,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 9
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_14.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:6c41f8aa0394c514e3c83ce157f18b975511852739b9bf561a5c5b4968c43ac4",
+      "shipped": true,
+      "size": 283277,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 9
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_15.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:ca214267c6a6d2fa1a4c9453593839e863ba6bbe186b89a68857be8881472c69",
+      "shipped": true,
+      "size": 290081,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 10
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_16.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:a798e7ab5ed43150cacd9cf3473f06f5bbea9d92bdf107ce23f6ff5d1706dc54",
+      "shipped": true,
+      "size": 227930,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 10
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_17.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:7e1eb9737e3226843a4837f6ad69a20c5e646bc9ab7fe0e67fbe4994b5832c7d",
+      "shipped": true,
+      "size": 275128,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 11
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_18.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:0be371f36a3b7c70c46727ee2debde34a7ad547265ce03a952b9fd769abbdb12",
+      "shipped": true,
+      "size": 284377,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 12
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_19.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:79904654db137daf0ae2667dab6310126d682f408700f43e46ef2d625000e6b6",
+      "shipped": true,
+      "size": 292771,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 12
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_20.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:13ba15bf6fee4dff5ddf1cb18e832e70cce83a49ec4feffb1ca84b71abd3027d",
+      "shipped": true,
+      "size": 269003,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 13
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_21.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:3400256c65b9f33909578c821536118f697637b60cd19723091c1d93349b900b",
+      "shipped": true,
+      "size": 283480,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 14
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_22.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:17ef64e87ae26536cd8ed0c69ed55597906db1b822802eaeba49e1897cff55ab",
+      "shipped": true,
+      "size": 357109,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 15
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_23.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:83551ba750f6f8e7a3eaa9f844f3fb4230ef8b76a7e5da1b591ceed79fdaebd4",
+      "shipped": true,
+      "size": 314511,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 15
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_24.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:6e2659d355258d0e409c0a7b7284de303804e9a732709e6bdda31a9982e4d1f0",
+      "shipped": true,
+      "size": 326157,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 16
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_25.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:cf7c2c24f03bb138b3ddc24915fd672c0694bf44defb89cb98eaaf7443cfc088",
+      "shipped": true,
+      "size": 334380,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 16
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_26.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:be76d08abdeaccdd4afd4c3e771427b466a30af999e0a47a071ccfd151ffe2e5",
+      "shipped": true,
+      "size": 331320,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 17
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_27.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:20cc0e1aba3861040944d26acce5248686fee0836c763257294eaf1b33c1bcad",
+      "shipped": true,
+      "size": 331748,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 17
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_28.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:acc987e4ec2b0524749463e159dc81a308fa5cadf0c530f9678fc2718d4f8e6d",
+      "shipped": true,
+      "size": 329426,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 18
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_29.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:3bba93615ebfb8cefd3a0c22f5d27ad9aa7863c0606dddaa24eec7f16edc0547",
+      "shipped": true,
+      "size": 321362,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 18
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_30.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:3ed2b41a68138784f5d25f7633af7c49b9a8e2e307e1b23b9a44882159a04b2a",
+      "shipped": true,
+      "size": 338438,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 19
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_31.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:e51703633c59e3702661a39a822504e3fab98cbc3a3c44d8d59933f2cd7f4f08",
+      "shipped": true,
+      "size": 374255,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 19
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_32.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:57ae24d55db6bd3966bbb56a8d5c8626ef2560f030c2e2f0bbe8d370f63d9c28",
+      "shipped": true,
+      "size": 344501,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 20
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_33.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:7606eb8a0d7aca752e7bee8ca44a4ee9d7f8eb442a12743633590f411cfa51de",
+      "shipped": true,
+      "size": 393705,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 20
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_34.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:3f55feb0106f0bbcb9e6e41aaa2a6f6556b63a741ac0853dc04a55209bc3342b",
+      "shipped": true,
+      "size": 361928,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 21
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_35.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:59fe83e1ce0c99c969a45079a6cc1b14e4e3cd9e626ca90bf418bccdc71c8381",
+      "shipped": true,
+      "size": 372593,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 21
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_36.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:01c6425fd9bd172d65260f12830a6ac112657883a106d4d73e21a23de78a53dd",
+      "shipped": true,
+      "size": 400129,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 22
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_37.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:41ce14bc02641c96a1017e891356d06c91ac822a41a45be3e5fa209d53e6d6ab",
+      "shipped": true,
+      "size": 392777,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 23
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_38.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:2d144f545bd2d80fefe5f9fbaccb785b705de24b761fff2e3b503d3dc099d4e9",
+      "shipped": true,
+      "size": 292236,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 24
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_39.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:8455638afd013afadf3e2a6105257b0e781e5324222c8a2df798f4e06b4a23c3",
+      "shipped": true,
+      "size": 279122,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 24
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_40.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:95a9c12386275e6e9a25b2ba03f7cc6c5b25c7abd61ef785d39502a661b7baab",
+      "shipped": true,
+      "size": 268802,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 25
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_41.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:2e6be25fc70d37cba9e33085ec5d56667e432d9a0c38e4b0c25de27609f85342",
+      "shipped": true,
+      "size": 227453,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 25
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_42.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:aa97125dd1080575fda24a80cc8c8edb7c068fce019768d8a55f3c37ae216fb1",
+      "shipped": true,
+      "size": 256520,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 26
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_43.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:ed7226e15ab3c6730e78a71796931a9c7007cbbf3c1aad35315c2a7dbfb92821",
+      "shipped": true,
+      "size": 294557,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 26
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_44.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:112597f9a4f0327a0963c2bf519fc721a328f3cfde19e9102801c9c5f4703a32",
+      "shipped": true,
+      "size": 294435,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 27
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_45.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:ada938511d682bfe9abbf7895bf72c4727e6fc3d67f9bde5b44c416c566b38b5",
+      "shipped": true,
+      "size": 301747,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 27
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_46.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:e31f9d22c6f5a16f66a63626e08484d077458de95ba58751896bdded0c7b66e6",
+      "shipped": true,
+      "size": 322963,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 28
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_47.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:6af976c3e0cdaebcff66f39efb79e039b8dcca1fa6624b7a28cd604199f97c14",
+      "shipped": true,
+      "size": 303939,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 28
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_48.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:fba045acfe3c41fdf32f73aa4413fdf1c7b9d7d3b8ca3aea4798f4f56e036082",
+      "shipped": true,
+      "size": 289761,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 29
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_49.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:06f16066d8f36930f98dd183f7287bde94425e9c9f0c2b39fb44e0bcab81ca90",
+      "shipped": true,
+      "size": 423852,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 29
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_50.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:1c9cf5a6497bebf1f2c74570cb6f7bd688108da850089d81b670e94490d11489",
+      "shipped": true,
+      "size": 374264,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 30
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_51.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:e0a7ceb0adabe78696e53d484b3d1f9a3f917b51bc0c8a50cdebfe9a27a117cc",
+      "shipped": true,
+      "size": 425808,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 30
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_52.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:58c1ae31314c061de377e1087dd4ad7e28e6623d017d12f4845d06870a0cae77",
+      "shipped": true,
+      "size": 394108,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 31
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    },
+    "assets/boutique/characters/character_53.png": {
+      "declaredUseEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "source": "User-provided Google Docs"
+      },
+      "origin": "user-provided",
+      "referenceEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:9eafc142187da65a9a20c43e47702166e2ae15dce26f804e7855d7fca3679cb8",
+      "shipped": true,
+      "size": 371191,
+      "source": {
+        "url": "https://docs.google.com/document/d/1YVHdLuleS3ec_vBD_GFybauKKtcjHZYkaTOKQgE1PhU/edit?usp=sharing",
+        "document_page": 31
+      },
+      "status": "present",
+      "transformations": [
+        "Extracted embedded PDF portrait; restored soft-mask transparency; trimmed blank margin when available."
+      ],
+      "useEvidence": [
+        "scripts/main.gd",
+        "config/characters.json"
+      ],
+      "used": true,
+      "usedBy": [
+        "scripts/main.gd"
+      ]
+    }
+  },
+  "discoveries": {},
+  "downloads": {},
+  "export": {
+    "coverage": "verified",
+    "hostMedia": [
+      {
+        "contentMatches": [],
+        "path": "index.apple-touch-icon.png",
+        "sha256": "sha256:7f63b61972a00b13dd1e726367777f2cf0663e51bc0278041e2e61e2aac9a4f7",
+        "size": 15943,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.icon.png",
+        "sha256": "sha256:85f92d3153d1378437fac15deb3f7f2768c8967d63a7c80f210fcc9a727a5011",
+        "size": 8394,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.png",
+        "sha256": "sha256:5743a648b82437e0e60db5e4aa08103cea96b01e110961082223c0e7fa819ebf",
+        "size": 1010767,
+        "sourcePaths": []
+      }
+    ],
+    "pckSha256": "sha256:fecfa4ffdc0410968c0987d9f8af48b75246f21c1fc01aaa6bb1f97519cf5cd1",
+    "profile": "preview",
+    "sourceFingerprint": "sha256:1624c62c8f87dd1fa0223f1e71cfbf379281421d0e8adfe47c75c8a4c0f54ae9"
+  },
+  "procedures": {},
+  "summary": {
+    "ancestry": {
+      "ai": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "catalog": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "procedural": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      }
+    },
+    "derivatives": {
+      "retained": 0,
+      "shipped": 0,
+      "used": 0
+    },
+    "exportedHostMedia": {
+      "paths": 3,
+      "uniqueHashes": 3,
+      "unmatchedSourcePaths": 3
+    },
+    "files": {
+      "downloaded": 0,
+      "retained": 81,
+      "shipped": 81,
+      "used": 54
+    },
+    "origins": {
+      "ai": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "catalog": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "derivative": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "external": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "procedural": {
+        "retained": 0,
+        "shipped": 0,
+        "used": 0
+      },
+      "template": {
+        "retained": 15,
+        "shipped": 15,
+        "used": 1
+      },
+      "unknown": {
+        "retained": 66,
+        "shipped": 66,
+        "used": 53
+      }
+    },
+    "packs": {
+      "discovered": 0,
+      "downloaded": 0,
+      "shipped": 0,
+      "used": 0
+    },
+    "proceduralSystems": {
+      "retained": 0,
+      "used": 0
+    },
+    "spriteRegions": {
+      "retained": 0,
+      "shipped": 0,
+      "used": 0
+    },
+    "visualCoverage": {
+      "approvedRevision": 3,
+      "blueprintId": "gbp_2da268b96dff84a32cbd85ff",
+      "committedRoles": 6,
+      "expectedDigest": "55338365a4eade1a7ccdfc32b0abf37bde5bb684c69c88199c367fdf01c8e0e4",
+      "fulfilledRoles": 0,
+      "roles": [
+        {
+          "id": "boutique_space",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "customers_vip",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "fashion_products",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "interactive_fixtures",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "vip_request_feedback",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "progression_state_markers",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        }
+      ],
+      "search": {
+        "checkedPages": 0,
+        "outcomes": 0,
+        "overflowEvents": 0,
+        "requests": 0
+      },
+      "selectedButUnusedAssets": [],
+      "staleRenderedEvidence": [],
+      "status": "incomplete",
+      "unexplainedFallbacks": [],
+      "unresolvedRoles": [
+        "boutique_space",
+        "customers_vip",
+        "fashion_products",
+        "interactive_fixtures",
+        "vip_request_feedback",
+        "progression_state_markers"
+      ],
+      "visualQuality": "requires_agent_review"
+    }
+  },
+  "version": 1,
+  "visualCoverage": {
+    "attempts": {},
+    "expected": {
+      "approvedRevision": 3,
+      "blueprintId": "gbp_2da268b96dff84a32cbd85ff",
+      "digest": "55338365a4eade1a7ccdfc32b0abf37bde5bb684c69c88199c367fdf01c8e0e4",
+      "roles": [
+        {
+          "description": "Không gian cửa hàng hiện đại của bạn cần thể hiện rõ lối vào, khu trưng bày, hàng chờ và vùng thao tác trên màn hình điện thoại.",
+          "id": "boutique_space",
+          "label": "Không gian boutique 2D cố định"
+        },
+        {
+          "description": "Các nhân vật khách của bạn cần có trạng thái vào tiệm, xem hàng, chọn món, xếp hàng, chờ, mua thành công hoặc bỏ về; khách VIP phải dễ nhận biết.",
+          "id": "customers_vip",
+          "label": "Khách thường và khách VIP"
+        },
+        {
+          "description": "Kho và kệ của bạn cần hình ảnh dễ phân biệt cho khoảng 40–50 mẫu thuộc quần áo hoặc đầm, túi, giày và kính, đồng thời hỗ trợ màu sắc và ba phẩm cấp.",
+          "id": "fashion_products",
+          "label": "Bộ sản phẩm thời trang"
+        },
+        {
+          "description": "Các điểm thao tác thủ công của bạn cần đọc rõ trạng thái có hàng, hết hàng, ô trống, khóa hoặc mở khóa và nơi chạm để chốt đơn.",
+          "id": "interactive_fixtures",
+          "label": "Kệ, kho và quầy thu ngân tương tác"
+        },
+        {
+          "description": "Yêu cầu loại món và màu của VIP trong game của bạn cần hiện rõ bằng bong bóng, cùng phản hồi đúng hoặc sai, tip và đánh giá 5 sao.",
+          "id": "vip_request_feedback",
+          "label": "Yêu cầu và phản hồi trực quan của VIP"
+        },
+        {
+          "description": "Các vị trí kệ, mẫu thiết kế và nâng cấp của bạn cần có trạng thái trực quan nhất quán để phân biệt đã mở, đang khóa và sẵn sàng nhận thưởng.",
+          "id": "progression_state_markers",
+          "label": "Trạng thái mở khóa và nâng cấp"
+        }
+      ]
+    },
+    "overflowEvents": 0,
+    "resolutions": {},
+    "version": 1
+  }
+}

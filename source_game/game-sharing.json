@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "title": "Tiên Môn Linh Vận",
+  "description": "Quản lý tiên môn tu tiên: thâu mua đan dược, bày linh các, phục vụ khách hữu duyên và tích lũy Linh Thạch.",
+  "defaultCaptions": {
+    "x": "Tiên Môn Linh Vận · mở tiên môn, bày đan dược và đón khách hữu duyên!",
+    "facebook": "Tiên Môn Linh Vận · game quản lý tiên môn cổ trang xanh trắng, điểm hồng đào.",
+    "reddit": "Một ngày làm chủ tiên môn: thâu mua đan dược, phục vụ khách và săn đơn VIP.",
+    "discord": "Tiên Môn Linh Vận: quản lý linh các đan dược trên màn hình dọc."
+  },
+  "assets": {
+    "favicon": "assets/share/favicon.png",
+    "og": "assets/share/og.png"
+  }
+}

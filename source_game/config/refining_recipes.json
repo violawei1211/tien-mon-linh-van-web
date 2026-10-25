@@ -1,0 +1,470 @@
+{
+ "_ghi_chu": "Nguyên liệu tinh luyện theo Google Sheet. qty = số lượng tiêu hao mỗi lần tinh luyện. image = ảnh nguyên liệu (chưa có ảnh thì dùng ảnh sạp mặc định). Giá không cố định: Chợ Thành Trì random mỗi lần mua (4.500-850.000 LT; 55% 500k-850k, 30% 100k-500k, 15% dưới 100k).",
+ "materials": {
+  "Bột ngọc thạch": {
+   "image": "res://assets/boutique/materials/bot_ngoc_thach.png"
+  },
+  "Bột ngọc trai": {
+   "image": "res://assets/boutique/materials/bot_ngoc_trai.png"
+  },
+  "Chu sa máu lôi điêu": {
+   "image": "res://assets/boutique/materials/chu_sa_mau_loi_dieu.png"
+  },
+  "Cốt tủy giao long": {
+   "image": "res://assets/boutique/materials/cot_tuy_giao_long.png"
+  },
+  "Dược liệu cửu hành": {
+   "image": "res://assets/boutique/materials/duoc_lieu_cuu_hanh.png"
+  },
+  "Dạ minh châu": {
+   "image": "res://assets/boutique/materials/da_minh_chau.png"
+  },
+  "Giấy bùa linh khí": {
+   "image": "res://assets/boutique/materials/giay_bua_linh_khi.png"
+  },
+  "Giấy bùa thuần dương": {
+   "image": "res://assets/boutique/materials/giay_bua_thuan_duong.png"
+  },
+  "Giấy không gian": {
+   "image": "res://assets/boutique/materials/giay_khong_gian.png"
+  },
+  "Giấy lôi kiếp": {
+   "image": "res://assets/boutique/materials/giay_loi_kiep.png"
+  },
+  "Giấy phá giáp": {
+   "image": "res://assets/boutique/materials/giay_pha_giap.png"
+  },
+  "Gân cự thú": {
+   "image": "res://assets/boutique/materials/gan_cu_thu.png"
+  },
+  "Gỗ kim ti nan": {
+   "image": "res://assets/boutique/materials/go_kim_ti_nan.png"
+  },
+  "Gỗ tử đàn ngàn năm": {
+   "image": "res://assets/boutique/materials/go_tu_dan_ngan_nam.png"
+  },
+  "Hoa lan bóng tối": {
+   "image": "res://assets/boutique/materials/hoa_lan_bong_toi.png"
+  },
+  "Huyết mạch Giao Long non": {
+   "image": "res://assets/boutique/materials/huyet_mach_giao_long_non.png"
+  },
+  "Hà Thủ Ô ngàn năm": {
+   "image": "res://assets/boutique/materials/ha_thu_o_ngan_nam.png"
+  },
+  "Hư không linh ti": {
+   "image": "res://assets/boutique/materials/hu_khong_linh_ti.png"
+  },
+  "Hư không thạch": {
+   "image": "res://assets/boutique/materials/hu_khong_thach.png"
+  },
+  "Hỏa Tinh Thạch": {
+   "image": "res://assets/boutique/materials/hoa_tinh_thach.png"
+  },
+  "Khung thép huyền thiết": {
+   "image": "res://assets/boutique/materials/khung_thep_huyen_thiet.png"
+  },
+  "Khóa linh văn": {
+   "image": "res://assets/boutique/materials/khoa_linh_van.png"
+  },
+  "Kim thiết thượng hạng": {
+   "image": "res://assets/boutique/materials/kim_thiet_thuong_hang.png"
+  },
+  "Linh dược thượng cổ": {
+   "image": "res://assets/boutique/materials/linh_duoc_thuong_co.png"
+  },
+  "Long Huyết": {},
+  "Lông hắc ám": {
+   "image": "res://assets/boutique/materials/long_hac_am.png"
+  },
+  "Lông phượng hoàng chín màu": {
+   "image": "res://assets/boutique/materials/long_phuong_hoang_chin_mau.png"
+  },
+  "Lông quang minh": {
+   "image": "res://assets/boutique/materials/long_quang_minh.png"
+  },
+  "Lông vũ Hỏa Điểu": {
+   "image": "res://assets/boutique/materials/long_vu_hoa_dieu.png"
+  },
+  "Lông vũ Lôi Điêu": {
+   "image": "res://assets/boutique/materials/long_vu_loi_dieu.png"
+  },
+  "Lõi thiên thạch": {
+   "image": "res://assets/boutique/materials/loi_thien_thach.png"
+  },
+  "Máu yêu thú thượng cổ chuyên cắn xé trận pháp": {
+   "image": "res://assets/boutique/materials/mau_yeu_thu_thuong_co_chuyen_can_xe_tran.png"
+  },
+  "Mảnh Minh Nguyệt": {
+   "image": "res://assets/boutique/materials/manh_minh_nguyet.png"
+  },
+  "Mảnh kiếm ý thượng cổ": {
+   "image": "res://assets/boutique/materials/manh_kiem_y_thuong_co.png"
+  },
+  "Mảnh thạch nhũ vạn năm": {
+   "image": "res://assets/boutique/materials/manh_thach_nhu_van_nam.png"
+  },
+  "Ngọc thạch trắng": {
+   "image": "res://assets/boutique/materials/ngoc_thach_trang.png"
+  },
+  "Quặng Lôi Thạch": {
+   "image": "res://assets/boutique/materials/quang_loi_thach.png"
+  },
+  "Sương mù U Minh": {
+   "image": "res://assets/boutique/materials/suong_mu_u_minh.png"
+  },
+  "Sọ chim ưng": {
+   "image": "res://assets/boutique/materials/so_chim_ung.png"
+  },
+  "Sừng Lôi Điêu": {
+   "image": "res://assets/boutique/materials/sung_loi_dieu.png"
+  },
+  "Thái dương hỏa": {
+   "image": "res://assets/boutique/materials/thai_duong_hoa.png"
+  },
+  "Tinh hoa nhật nguyệt": {
+   "image": "res://assets/boutique/materials/tinh_hoa_nhat_nguyet.png"
+  },
+  "Tinh huyết yêu thú": {
+   "image": "res://assets/boutique/materials/tinh_huyet_yeu_thu.png"
+  },
+  "Tinh huyết đạo sĩ": {
+   "image": "res://assets/boutique/materials/tinh_huyet_dao_si.png"
+  },
+  "Tinh thể lưu ly": {
+   "image": "res://assets/boutique/materials/tinh_the_luu_ly.png"
+  },
+  "Trận bàn không gian": {
+   "image": "res://assets/boutique/materials/tran_ban_khong_gian.png"
+  },
+  "Trận bàn lưỡng nghi đen trắng": {
+   "image": "res://assets/boutique/materials/tran_ban_luong_nghi_den_trang.png"
+  },
+  "Trận bàn ngọc nguyên khối": {
+   "image": "res://assets/boutique/materials/tran_ban_ngoc_nguyen_khoi.png"
+  },
+  "Trận bàn thiên ngoại thạch": {
+   "image": "res://assets/boutique/materials/tran_ban_thien_ngoai_thach.png"
+  },
+  "Trận bàn tinh thể": {
+   "image": "res://assets/boutique/materials/tran_ban_tinh_the.png"
+  },
+  "Tơ không gian": {
+   "image": "res://assets/boutique/materials/to_khong_gian.png"
+  },
+  "Viêm tinh thạch": {
+   "image": "res://assets/boutique/materials/viem_tinh_thach.png"
+  },
+  "Vô chủ kiếm khí": {
+   "image": "res://assets/boutique/materials/vo_chu_kiem_khi.png"
+  },
+  "Âm hỏa thạch": {
+   "image": "res://assets/boutique/materials/am_hoa_thach.png"
+  },
+  "Đồng thau tím": {
+   "image": "res://assets/boutique/materials/dong_thau_tim.png"
+  }
+ },
+ "recipes": {
+  "Thần Thú Huyết Đan": [
+   {
+    "name": "Tinh huyết yêu thú",
+    "qty": 1
+   },
+   {
+    "name": "Cốt tủy giao long",
+    "qty": 1
+   }
+  ],
+  "Xích Huyết Long Đan": [
+   {
+    "name": "Huyết mạch Giao Long non",
+    "qty": 1
+   },
+   {
+    "name": "Hỏa Tinh Thạch",
+    "qty": 1
+   }
+  ],
+  "Cửu Trùng Đan": [
+   {
+    "name": "Dược liệu cửu hành",
+    "qty": 9
+   },
+   {
+    "name": "Long Huyết",
+    "qty": 1
+   }
+  ],
+  "Bổ Thiên Đan": [
+   {
+    "name": "Mảnh thạch nhũ vạn năm",
+    "qty": 1
+   },
+   {
+    "name": "Tinh hoa nhật nguyệt",
+    "qty": 1
+   }
+  ],
+  "Bát Truyển Kim Đan": [
+   {
+    "name": "Linh dược thượng cổ",
+    "qty": 8
+   },
+   {
+    "name": "Hà Thủ Ô ngàn năm",
+    "qty": 1
+   }
+  ],
+  "Thất Tinh Hợp Nhất Đỉnh": [
+   {
+    "name": "Đồng thau tím",
+    "qty": 1
+   },
+   {
+    "name": "Dạ minh châu",
+    "qty": 7
+   }
+  ],
+  "Tử Điện Trùy": [
+   {
+    "name": "Quặng Lôi Thạch",
+    "qty": 1
+   },
+   {
+    "name": "Sừng Lôi Điêu",
+    "qty": 1
+   }
+  ],
+  "Hỗn Nguyên Phù Đồ Tháp": [
+   {
+    "name": "Ngọc thạch trắng",
+    "qty": 1
+   },
+   {
+    "name": "Gỗ tử đàn ngàn năm",
+    "qty": 1
+   }
+  ],
+  "Phách Thiên Cự Phủ": [
+   {
+    "name": "Kim thiết thượng hạng",
+    "qty": 1
+   },
+   {
+    "name": "Gân cự thú",
+    "qty": 1
+   }
+  ],
+  "Tru Tiên Kiếm Phôi": [
+   {
+    "name": "Mảnh kiếm ý thượng cổ",
+    "qty": 1
+   },
+   {
+    "name": "Vô chủ kiếm khí",
+    "qty": 1
+   }
+  ],
+  "Thái Hư Trừ Tà Phù": [
+   {
+    "name": "Giấy bùa thuần dương",
+    "qty": 1
+   },
+   {
+    "name": "Tinh huyết đạo sĩ",
+    "qty": 1
+   }
+  ],
+  "Tụ Linh Phù": [
+   {
+    "name": "Giấy bùa linh khí",
+    "qty": 1
+   },
+   {
+    "name": "Bột ngọc thạch",
+    "qty": 1
+   }
+  ],
+  "Vạn Lôi Phù": [
+   {
+    "name": "Giấy lôi kiếp",
+    "qty": 1
+   },
+   {
+    "name": "Chu sa máu lôi điêu",
+    "qty": 1
+   }
+  ],
+  "Di Hình Huyễn Ảnh Phù": [
+   {
+    "name": "Giấy không gian",
+    "qty": 1
+   },
+   {
+    "name": "Tơ không gian",
+    "qty": 1
+   }
+  ],
+  "Phá Giới Phù": [
+   {
+    "name": "Giấy phá giáp",
+    "qty": 1
+   },
+   {
+    "name": "Máu yêu thú thượng cổ chuyên cắn xé trận pháp",
+    "qty": 1
+   }
+  ],
+  "Cửu Tinh Liên Châu Trận": [
+   {
+    "name": "Trận bàn tinh thể",
+    "qty": 1
+   },
+   {
+    "name": "Dạ minh châu",
+    "qty": 9
+   }
+  ],
+  "Thái Cực Phong Ấn Trận": [
+   {
+    "name": "Trận bàn ngọc nguyên khối",
+    "qty": 1
+   },
+   {
+    "name": "Khóa linh văn",
+    "qty": 1
+   }
+  ],
+  "Lưỡng Nghi Sinh Tử Trận": [
+   {
+    "name": "Trận bàn lưỡng nghi đen trắng",
+    "qty": 1
+   },
+   {
+    "name": "Âm hỏa thạch",
+    "qty": 1
+   }
+  ],
+  "Vô Tung Huyễn Trận": [
+   {
+    "name": "Trận bàn không gian",
+    "qty": 1
+   },
+   {
+    "name": "Tinh thể lưu ly",
+    "qty": 1
+   }
+  ],
+  "Hỗn Nguyên Phạt Thiên Trận": [
+   {
+    "name": "Trận bàn thiên ngoại thạch",
+    "qty": 1
+   },
+   {
+    "name": "Lõi thiên thạch",
+    "qty": 1
+   }
+  ],
+  "Hỏa Vũ Sí": [
+   {
+    "name": "Lông vũ Hỏa Điểu",
+    "qty": 1
+   },
+   {
+    "name": "Viêm tinh thạch",
+    "qty": 1
+   }
+  ],
+  "Hắc Bạch Sí": [
+   {
+    "name": "Lông quang minh",
+    "qty": 1
+   },
+   {
+    "name": "Lông hắc ám",
+    "qty": 1
+   },
+   {
+    "name": "Hư không thạch",
+    "qty": 1
+   }
+  ],
+  "Cửu Tiêu Lâu Thuyền": [
+   {
+    "name": "Gỗ kim ti nan",
+    "qty": 1
+   },
+   {
+    "name": "Khung thép huyền thiết",
+    "qty": 1
+   }
+  ],
+  "Lôi Minh Sí": [
+   {
+    "name": "Lông vũ Lôi Điêu",
+    "qty": 1
+   },
+   {
+    "name": "Quặng Lôi Thạch",
+    "qty": 1
+   }
+  ],
+  "Hồng Mông Phượng Hoàng Sí": [
+   {
+    "name": "Lông phượng hoàng chín màu",
+    "qty": 1
+   },
+   {
+    "name": "Hư không linh ti",
+    "qty": 1
+   }
+  ],
+  "Bạch Lôi Ảnh Báo": [
+   {
+    "name": "Quặng Lôi Thạch",
+    "qty": 1
+   }
+  ],
+  "Trứng Nguyệt Quang Ngư": [
+   {
+    "name": "Mảnh Minh Nguyệt",
+    "qty": 1
+   },
+   {
+    "name": "Bột ngọc trai",
+    "qty": 1
+   }
+  ],
+  "Kim Cang Thái Dương Ưng": [
+   {
+    "name": "Sọ chim ưng",
+    "qty": 1
+   },
+   {
+    "name": "Thái dương hỏa",
+    "qty": 1
+   }
+  ],
+  "Trứng Huyễn Linh Long": [
+   {
+    "name": "Trận bàn không gian",
+    "qty": 1
+   },
+   {
+    "name": "Huyết mạch Giao Long non",
+    "qty": 1
+   }
+  ],
+  "Trứng U Lan Tinh Thú": [
+   {
+    "name": "Sương mù U Minh",
+    "qty": 1
+   },
+   {
+    "name": "Hoa lan bóng tối",
+    "qty": 1
+   }
+  ]
+ }
+}

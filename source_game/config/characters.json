@@ -1,0 +1,479 @@
+[
+  {
+    "id": 0,
+    "name": "Bạch Huyền Khanh",
+    "portrait": "assets/boutique/characters/character_01.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 1,
+    "screen_side": "right"
+  },
+  {
+    "id": 1,
+    "name": "Tạ Vô Trần",
+    "portrait": "assets/boutique/characters/character_02.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 2,
+    "screen_side": "left"
+  },
+  {
+    "id": 2,
+    "name": "Lục Kiếm Minh",
+    "portrait": "assets/boutique/characters/character_03.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 3,
+    "screen_side": "left"
+  },
+  {
+    "id": 3,
+    "name": "Tần Nhược Trần",
+    "portrait": "assets/boutique/characters/character_04.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 3,
+    "screen_side": "left"
+  },
+  {
+    "id": 4,
+    "name": "Mặc Vân Khê",
+    "portrait": "assets/boutique/characters/character_05.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 4,
+    "screen_side": "left"
+  },
+  {
+    "id": 5,
+    "name": "Diệp Linh Nhi",
+    "portrait": "assets/boutique/characters/character_06.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 4,
+    "screen_side": "left"
+  },
+  {
+    "id": 6,
+    "name": "Tống Hạc Hiên",
+    "portrait": "assets/boutique/characters/character_07.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 5,
+    "screen_side": "left"
+  },
+  {
+    "id": 7,
+    "name": "Mục Vân Sinh",
+    "portrait": "assets/boutique/characters/character_08.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 6,
+    "screen_side": "left"
+  },
+  {
+    "id": 8,
+    "name": "Cố Trường Phong",
+    "portrait": "assets/boutique/characters/character_09.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 7,
+    "screen_side": "left"
+  },
+  {
+    "id": 9,
+    "name": "Tô Thanh Loan",
+    "portrait": "assets/boutique/characters/character_10.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 7,
+    "screen_side": "left"
+  },
+  {
+    "id": 10,
+    "name": "Hàn Tử Mặc",
+    "portrait": "assets/boutique/characters/character_11.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 8,
+    "screen_side": "left"
+  },
+  {
+    "id": 11,
+    "name": "Trình Vân Chi",
+    "portrait": "assets/boutique/characters/character_12.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 8,
+    "screen_side": "left"
+  },
+  {
+    "id": 12,
+    "name": "Thanh Liên chân nhân",
+    "portrait": "assets/boutique/characters/character_13.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 9,
+    "screen_side": "left"
+  },
+  {
+    "id": 13,
+    "name": "Tạ Kính Uyên",
+    "portrait": "assets/boutique/characters/character_14.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 9,
+    "screen_side": "left"
+  },
+  {
+    "id": 14,
+    "name": "Lăng Thiên Dật",
+    "portrait": "assets/boutique/characters/character_15.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 10,
+    "screen_side": "left"
+  },
+  {
+    "id": 15,
+    "name": "Bùi Hạo Nhiên",
+    "portrait": "assets/boutique/characters/character_16.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 10,
+    "screen_side": "left"
+  },
+  {
+    "id": 16,
+    "name": "Lâm Thanh Dật",
+    "portrait": "assets/boutique/characters/character_17.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 11,
+    "screen_side": "left"
+  },
+  {
+    "id": 17,
+    "name": "Tô Nguyệt Dao",
+    "portrait": "assets/boutique/characters/character_18.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 12,
+    "screen_side": "left"
+  },
+  {
+    "id": 18,
+    "name": "Bạch Tố Tâm",
+    "portrait": "assets/boutique/characters/character_19.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 12,
+    "screen_side": "left"
+  },
+  {
+    "id": 19,
+    "name": "Lục Trường Khanh",
+    "portrait": "assets/boutique/characters/character_20.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 13,
+    "screen_side": "left"
+  },
+  {
+    "id": 20,
+    "name": "Thẩm Linh Châu",
+    "portrait": "assets/boutique/characters/character_21.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 14,
+    "screen_side": "left"
+  },
+  {
+    "id": 21,
+    "name": "Quý Vân Thâm",
+    "portrait": "assets/boutique/characters/character_22.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 15,
+    "screen_side": "left"
+  },
+  {
+    "id": 22,
+    "name": "Cố Trường An",
+    "portrait": "assets/boutique/characters/character_23.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 15,
+    "screen_side": "left"
+  },
+  {
+    "id": 23,
+    "name": "Tiêu Dạ Minh",
+    "portrait": "assets/boutique/characters/character_24.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 16,
+    "screen_side": "left"
+  },
+  {
+    "id": 24,
+    "name": "Phó Cảnh Hành",
+    "portrait": "assets/boutique/characters/character_25.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 16,
+    "screen_side": "left"
+  },
+  {
+    "id": 25,
+    "name": "Thanh Hư Tử",
+    "portrait": "assets/boutique/characters/character_26.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 17,
+    "screen_side": "left"
+  },
+  {
+    "id": 26,
+    "name": "Hạ Minh Châu",
+    "portrait": "assets/boutique/characters/character_27.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 17,
+    "screen_side": "left"
+  },
+  {
+    "id": 27,
+    "name": "Tạ Vân Khởi",
+    "portrait": "assets/boutique/characters/character_28.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 18,
+    "screen_side": "left"
+  },
+  {
+    "id": 28,
+    "name": "Mộ Bạch Ly",
+    "portrait": "assets/boutique/characters/character_29.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 18,
+    "screen_side": "left"
+  },
+  {
+    "id": 29,
+    "name": "Cố Trường Uyên",
+    "portrait": "assets/boutique/characters/character_30.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 19,
+    "screen_side": "left"
+  },
+  {
+    "id": 30,
+    "name": "Tần Hạo Thiên",
+    "portrait": "assets/boutique/characters/character_31.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 19,
+    "screen_side": "left"
+  },
+  {
+    "id": 31,
+    "name": "Tô Minh Nguyệt",
+    "portrait": "assets/boutique/characters/character_32.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 20,
+    "screen_side": "left"
+  },
+  {
+    "id": 32,
+    "name": "Đường Uyển Thanh",
+    "portrait": "assets/boutique/characters/character_33.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 20,
+    "screen_side": "left"
+  },
+  {
+    "id": 33,
+    "name": "Lục Thanh Hàn",
+    "portrait": "assets/boutique/characters/character_34.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 21,
+    "screen_side": "left"
+  },
+  {
+    "id": 34,
+    "name": "Bạch Tử Yên",
+    "portrait": "assets/boutique/characters/character_35.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 21,
+    "screen_side": "left"
+  },
+  {
+    "id": 35,
+    "name": "Hạ Vân Trạch",
+    "portrait": "assets/boutique/characters/character_36.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 22,
+    "screen_side": "left"
+  },
+  {
+    "id": 36,
+    "name": "Từ Huyền Cơ",
+    "portrait": "assets/boutique/characters/character_37.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 23,
+    "screen_side": "left"
+  },
+  {
+    "id": 37,
+    "name": "Chu Dạ Hành",
+    "portrait": "assets/boutique/characters/character_38.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 24,
+    "screen_side": "left"
+  },
+  {
+    "id": 38,
+    "name": "Mạc Tinh Hà",
+    "portrait": "assets/boutique/characters/character_39.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 24,
+    "screen_side": "left"
+  },
+  {
+    "id": 39,
+    "name": "Cố Vân Thư",
+    "portrait": "assets/boutique/characters/character_40.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 25,
+    "screen_side": "left"
+  },
+  {
+    "id": 40,
+    "name": "Thẩm Dao Quang",
+    "portrait": "assets/boutique/characters/character_41.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 25,
+    "screen_side": "left"
+  },
+  {
+    "id": 41,
+    "name": "Lăng Tử Mặc",
+    "portrait": "assets/boutique/characters/character_42.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 26,
+    "screen_side": "left"
+  },
+  {
+    "id": 42,
+    "name": "Tạ Thanh Nghi",
+    "portrait": "assets/boutique/characters/character_43.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 26,
+    "screen_side": "right"
+  },
+  {
+    "id": 43,
+    "name": "Mộ Huyền Sương",
+    "portrait": "assets/boutique/characters/character_44.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 27,
+    "screen_side": "right"
+  },
+  {
+    "id": 44,
+    "name": "Vân Cẩm Dạ",
+    "portrait": "assets/boutique/characters/character_45.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 27,
+    "screen_side": "right"
+  },
+  {
+    "id": 45,
+    "name": "Lạc Thanh Dao",
+    "portrait": "assets/boutique/characters/character_46.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 28,
+    "screen_side": "right"
+  },
+  {
+    "id": 46,
+    "name": "Giang Nguyệt Bạch",
+    "portrait": "assets/boutique/characters/character_47.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 28,
+    "screen_side": "right"
+  },
+  {
+    "id": 47,
+    "name": "Tống Yên Nhi",
+    "portrait": "assets/boutique/characters/character_48.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 29,
+    "screen_side": "right"
+  },
+  {
+    "id": 48,
+    "name": "Tô Linh Âm",
+    "portrait": "assets/boutique/characters/character_49.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 29,
+    "screen_side": "right"
+  },
+  {
+    "id": 49,
+    "name": "Cơ Huyền Tịch",
+    "portrait": "assets/boutique/characters/character_50.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 30,
+    "screen_side": "right"
+  },
+  {
+    "id": 50,
+    "name": "Ninh Vân Ca",
+    "portrait": "assets/boutique/characters/character_51.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 30,
+    "screen_side": "right"
+  },
+  {
+    "id": 51,
+    "name": "Bạch Ngọc Cầm",
+    "portrait": "assets/boutique/characters/character_52.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 31,
+    "screen_side": "right"
+  },
+  {
+    "id": 52,
+    "name": "Diệp Tử Huyên",
+    "portrait": "assets/boutique/characters/character_53.png",
+    "gender": "unspecified",
+    "age_group": "cultivator",
+    "doc_page": 31,
+    "screen_side": "right"
+  }
+]

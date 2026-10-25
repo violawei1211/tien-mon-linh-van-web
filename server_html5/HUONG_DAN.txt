@@ -1,0 +1,13 @@
+Tiên Môn Linh Vận — bản Web (Godot 4.7.2, export Web release, không dùng threads)
+Bản build ngày 2026-10-24, giống link chơi trên claude.ai.
+
+Chạy trên máy:
+  python3 start_server.py
+  → mở http://127.0.0.1:4173/index.html
+Đổi cổng: PORT=8080 python3 start_server.py
+Windows: bấm đúp CHAY_SERVER.bat (cần cài Python 3).
+Lưu ý: không mở trực tiếp index.html bằng file:// — phải chạy qua server.
+
+Mã sao lưu 7 ký tự:
+- Chạy bằng start_server.py: mã lưu trên máy chủ, máy khác trong cùng mạng cũng khôi phục được.
+- Đưa thư mục dist/ lên host tĩnh (itch.io, Netlify, GitHub Pages...): mã chỉ lưu trong trình duyệt của người chơi.

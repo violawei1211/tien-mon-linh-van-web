@@ -1,0 +1,642 @@
+[
+ {
+  "id": "a01",
+  "name": "Khai trương hồng phát",
+  "desc": "Bán 100 món",
+  "stat": "sold",
+  "target": 100,
+  "reward": 500
+ },
+ {
+  "id": "a02",
+  "name": "Tiểu thương lành nghề",
+  "desc": "Bán 500 món",
+  "stat": "sold",
+  "target": 500,
+  "reward": 2000
+ },
+ {
+  "id": "a03",
+  "name": "Thiên hạ đệ nhất quầy",
+  "desc": "Bán 1.000 món",
+  "stat": "sold",
+  "target": 1000,
+  "reward": 5000
+ },
+ {
+  "id": "a04",
+  "name": "Vạn món thông thương",
+  "desc": "Bán 5.000 món",
+  "stat": "sold",
+  "target": 5000,
+  "reward": 20000
+ },
+ {
+  "id": "a05",
+  "name": "Sơ nhập đan dược",
+  "desc": "Bán 100 đan dược",
+  "stat": "sold_đan dược",
+  "target": 100,
+  "reward": 1000
+ },
+ {
+  "id": "a06",
+  "name": "Danh gia đan dược",
+  "desc": "Bán 1.000 đan dược",
+  "stat": "sold_đan dược",
+  "target": 1000,
+  "reward": 10000
+ },
+ {
+  "id": "a07",
+  "name": "Sơ nhập pháp khí",
+  "desc": "Bán 100 pháp khí",
+  "stat": "sold_pháp khí",
+  "target": 100,
+  "reward": 1000
+ },
+ {
+  "id": "a08",
+  "name": "Danh gia pháp khí",
+  "desc": "Bán 500 pháp khí",
+  "stat": "sold_pháp khí",
+  "target": 500,
+  "reward": 10000
+ },
+ {
+  "id": "a09",
+  "name": "Sơ nhập phù triện",
+  "desc": "Bán 100 phù triện",
+  "stat": "sold_phù triện",
+  "target": 100,
+  "reward": 1000
+ },
+ {
+  "id": "a10",
+  "name": "Danh gia phù triện",
+  "desc": "Bán 500 phù triện",
+  "stat": "sold_phù triện",
+  "target": 500,
+  "reward": 10000
+ },
+ {
+  "id": "a11",
+  "name": "Sơ nhập trận đồ",
+  "desc": "Bán 50 trận đồ",
+  "stat": "sold_trận đồ",
+  "target": 50,
+  "reward": 3000
+ },
+ {
+  "id": "a12",
+  "name": "Danh gia trận đồ",
+  "desc": "Bán 300 trận đồ",
+  "stat": "sold_trận đồ",
+  "target": 300,
+  "reward": 15000
+ },
+ {
+  "id": "a13",
+  "name": "Sơ nhập phi xa",
+  "desc": "Bán 20 phi xa",
+  "stat": "sold_phi xa",
+  "target": 20,
+  "reward": 3000
+ },
+ {
+  "id": "a14",
+  "name": "Danh gia phi xa",
+  "desc": "Bán 100 phi xa",
+  "stat": "sold_phi xa",
+  "target": 100,
+  "reward": 15000
+ },
+ {
+  "id": "a15",
+  "name": "Sơ nhập linh thú",
+  "desc": "Bán 20 linh thú",
+  "stat": "sold_linh thú",
+  "target": 20,
+  "reward": 3000
+ },
+ {
+  "id": "a16",
+  "name": "Danh gia linh thú",
+  "desc": "Bán 100 linh thú",
+  "stat": "sold_linh thú",
+  "target": 100,
+  "reward": 15000
+ },
+ {
+  "id": "a17",
+  "name": "Năm mươi giao dịch",
+  "desc": "Hoàn thành 50 đơn",
+  "stat": "orders",
+  "target": 50,
+  "reward": 500
+ },
+ {
+  "id": "a18",
+  "name": "Hai trăm giao dịch",
+  "desc": "Hoàn thành 200 đơn",
+  "stat": "orders",
+  "target": 200,
+  "reward": 3000
+ },
+ {
+  "id": "a19",
+  "name": "Ngàn đơn khách quý",
+  "desc": "Hoàn thành 1.000 đơn",
+  "stat": "orders",
+  "target": 1000,
+  "reward": 15000
+ },
+ {
+  "id": "a20",
+  "name": "Tiếp đón quý nhân",
+  "desc": "Phục vụ 10 khách VIP",
+  "stat": "vip",
+  "target": 10,
+  "reward": 1000
+ },
+ {
+  "id": "a21",
+  "name": "Quý nhân phù trợ",
+  "desc": "Phục vụ 50 khách VIP",
+  "stat": "vip",
+  "target": 50,
+  "reward": 5000
+ },
+ {
+  "id": "a22",
+  "name": "Thượng khách như mây",
+  "desc": "Phục vụ 200 khách VIP",
+  "stat": "vip",
+  "target": 200,
+  "reward": 20000
+ },
+ {
+  "id": "a23",
+  "name": "Vạn linh thạch đầu tiên",
+  "desc": "Doanh thu cộng dồn 10.000 LT",
+  "stat": "revenue",
+  "target": 10000,
+  "reward": 1000
+ },
+ {
+  "id": "a24",
+  "name": "Mười vạn tài lộc",
+  "desc": "Doanh thu cộng dồn 100.000 LT",
+  "stat": "revenue",
+  "target": 100000,
+  "reward": 5000
+ },
+ {
+  "id": "a25",
+  "name": "Triệu phú tiên môn",
+  "desc": "Doanh thu cộng dồn 1.000.000 LT",
+  "stat": "revenue",
+  "target": 1000000,
+  "reward": 30000
+ },
+ {
+  "id": "a26",
+  "name": "Tài lực khuynh thành",
+  "desc": "Doanh thu cộng dồn 10.000.000 LT",
+  "stat": "revenue",
+  "target": 10000000,
+  "reward": 150000
+ },
+ {
+  "id": "a28",
+  "name": "Tiếng lành đồn xa",
+  "desc": "Nhận tổng 10.000 LT tip",
+  "stat": "tips",
+  "target": 10000,
+  "reward": 3000
+ },
+ {
+  "id": "a29",
+  "name": "Khen ngợi đầu tiên",
+  "desc": "Nhận 50 đánh giá 5 sao",
+  "stat": "five_star",
+  "target": 50,
+  "reward": 2000
+ },
+ {
+  "id": "a30",
+  "name": "Danh vọng lẫy lừng",
+  "desc": "Nhận 300 đánh giá 5 sao",
+  "stat": "five_star",
+  "target": 300,
+  "reward": 10000
+ },
+ {
+  "id": "a31",
+  "name": "Một tuần mở cửa",
+  "desc": "Chơi đủ 7 ngày",
+  "stat": "days",
+  "target": 7,
+  "reward": 1000
+ },
+ {
+  "id": "a32",
+  "name": "Một tháng kiên trì",
+  "desc": "Chơi đủ 30 ngày",
+  "stat": "days",
+  "target": 30,
+  "reward": 8000
+ },
+ {
+  "id": "a33",
+  "name": "Trăm ngày lập nghiệp",
+  "desc": "Chơi đủ 100 ngày",
+  "stat": "days",
+  "target": 100,
+  "reward": 40000
+ },
+ {
+  "id": "a34",
+  "name": "Ngày hoàn mỹ",
+  "desc": "Một ngày bán từ 5 đơn mà không khách nào bỏ về",
+  "stat": "perfect_days",
+  "target": 1,
+  "reward": 1000
+ },
+ {
+  "id": "a35",
+  "name": "Mười ngày hoàn mỹ",
+  "desc": "Có 10 ngày hoàn mỹ",
+  "stat": "perfect_days",
+  "target": 10,
+  "reward": 8000
+ },
+ {
+  "id": "a36",
+  "name": "Ba mươi ngày hoàn mỹ",
+  "desc": "Có 30 ngày hoàn mỹ",
+  "stat": "perfect_days",
+  "target": 30,
+  "reward": 25000
+ },
+ {
+  "id": "a37",
+  "name": "Tay không run",
+  "desc": "Có 10 ngày bán từ 10 đơn mà không bán nhầm món nào",
+  "stat": "clean_days",
+  "target": 10,
+  "reward": 6000
+ },
+ {
+  "id": "a38",
+  "name": "Lời đầu tiên",
+  "desc": "Một ngày lời từ 10.000 LT sau chi phí",
+  "stat": "profit_day_max",
+  "target": 10000,
+  "reward": 2000
+ },
+ {
+  "id": "a39",
+  "name": "Đại thắng một ngày",
+  "desc": "Một ngày lời từ 1.000.000 LT sau chi phí",
+  "stat": "profit_day_max",
+  "target": 1000000,
+  "reward": 50000
+ },
+ {
+  "id": "a40",
+  "name": "Bước đầu tu hành",
+  "desc": "Đạt level 3",
+  "stat": "level",
+  "target": 3,
+  "reward": 1000
+ },
+ {
+  "id": "a41",
+  "name": "Trúc cơ tiên môn",
+  "desc": "Đạt level 6",
+  "stat": "level",
+  "target": 6,
+  "reward": 5000
+ },
+ {
+  "id": "a42",
+  "name": "Kim đan đại phái",
+  "desc": "Đạt level 9",
+  "stat": "level",
+  "target": 9,
+  "reward": 20000
+ },
+ {
+  "id": "a43",
+  "name": "Đỉnh phong tiên môn",
+  "desc": "Đạt level 12",
+  "stat": "level",
+  "target": 12,
+  "reward": 100000
+ },
+ {
+  "id": "a44",
+  "name": "Kho đầy linh thạch",
+  "desc": "Có cùng lúc 50.000 LT",
+  "stat": "money_max",
+  "target": 50000,
+  "reward": 2000
+ },
+ {
+  "id": "a45",
+  "name": "Phú giáp nhất phương",
+  "desc": "Có cùng lúc 1.000.000 LT",
+  "stat": "money_max",
+  "target": 1000000,
+  "reward": 20000
+ },
+ {
+  "id": "a46",
+  "name": "Phú khả địch quốc",
+  "desc": "Có cùng lúc 10.000.000 LT",
+  "stat": "money_max",
+  "target": 10000000,
+  "reward": 100000
+ },
+ {
+  "id": "a47",
+  "name": "Mười món trong tay",
+  "desc": "Mở được 10 vật phẩm",
+  "stat": "unlocked",
+  "target": 10,
+  "reward": 2000
+ },
+ {
+  "id": "a48",
+  "name": "Ba mươi bảo vật",
+  "desc": "Mở được 30 vật phẩm",
+  "stat": "unlocked",
+  "target": 30,
+  "reward": 15000
+ },
+ {
+  "id": "a49",
+  "name": "Vạn bảo quy tông",
+  "desc": "Mở được cả 65 vật phẩm",
+  "stat": "unlocked",
+  "target": 65,
+  "reward": 100000
+ },
+ {
+  "id": "a50",
+  "name": "Kệ hàng san sát",
+  "desc": "Mở được 12 kệ",
+  "stat": "shelves",
+  "target": 12,
+  "reward": 5000
+ },
+ {
+  "id": "a51",
+  "name": "Linh các rộng lớn",
+  "desc": "Mở được cả 24 kệ (kể cả kệ đặc biệt)",
+  "stat": "shelves",
+  "target": 24,
+  "reward": 30000
+ },
+ {
+  "id": "a52",
+  "name": "Lò đan nhóm lửa",
+  "desc": "Tinh luyện thành công 10 mẻ",
+  "stat": "refines",
+  "target": 10,
+  "reward": 1000
+ },
+ {
+  "id": "a53",
+  "name": "Luyện đan sư",
+  "desc": "Tinh luyện thành công 100 mẻ",
+  "stat": "refines",
+  "target": 100,
+  "reward": 10000
+ },
+ {
+  "id": "a54",
+  "name": "Hỏa hầu thuần thục",
+  "desc": "Tinh luyện liên tiếp 20 mẻ không quá nhiệt",
+  "stat": "refine_streak_max",
+  "target": 20,
+  "reward": 8000
+ },
+ {
+  "id": "a55",
+  "name": "Phù truyền tin đầu tiên",
+  "desc": "Giao xong 1 đơn truyền tin",
+  "stat": "remote_done",
+  "target": 1,
+  "reward": 1000
+ },
+ {
+  "id": "a56",
+  "name": "Thương lộ rộng mở",
+  "desc": "Giao xong 10 đơn truyền tin",
+  "stat": "remote_done",
+  "target": 10,
+  "reward": 8000
+ },
+ {
+  "id": "a57",
+  "name": "Danh chấn tứ phương",
+  "desc": "Giao xong 50 đơn truyền tin",
+  "stat": "remote_done",
+  "target": 50,
+  "reward": 30000
+ },
+ {
+  "id": "a58",
+  "name": "Chữ tín vàng",
+  "desc": "Giao đúng hạn 25 đơn truyền tin",
+  "stat": "remote_ontime",
+  "target": 25,
+  "reward": 15000
+ },
+ {
+  "id": "a59",
+  "name": "Được tông môn biết mặt",
+  "desc": "Đạt uy tín 30 với 1 tông môn",
+  "stat": "rep30",
+  "target": 1,
+  "reward": 3000
+ },
+ {
+  "id": "a60",
+  "name": "Bằng hữu tam tông",
+  "desc": "Đạt uy tín 60 với 3 tông môn",
+  "stat": "rep60",
+  "target": 3,
+  "reward": 25000
+ },
+ {
+  "id": "a61",
+  "name": "Minh hữu sinh tử",
+  "desc": "Đạt uy tín 100 với 1 tông môn",
+  "stat": "rep100",
+  "target": 1,
+  "reward": 40000
+ },
+ {
+  "id": "a62",
+  "name": "Lần đầu xuất hành",
+  "desc": "Hoàn thành 1 chuyến thám hiểm",
+  "stat": "trips",
+  "target": 1,
+  "reward": 1000
+ },
+ {
+  "id": "a63",
+  "name": "Đoàn thám hiểm lão luyện",
+  "desc": "Hoàn thành 20 chuyến thám hiểm",
+  "stat": "trips",
+  "target": 20,
+  "reward": 15000
+ },
+ {
+  "id": "a64",
+  "name": "Vận may bí cảnh",
+  "desc": "Có 5 chuyến thành công lớn",
+  "stat": "great_trips",
+  "target": 5,
+  "reward": 15000
+ },
+ {
+  "id": "a65",
+  "name": "Đặt chân thượng cổ",
+  "desc": "Thám hiểm Bí cảnh Thượng Cổ",
+  "stat": "ancient",
+  "target": 1,
+  "reward": 30000
+ },
+ {
+  "id": "a66",
+  "name": "Môn khách thân tín",
+  "desc": "Có môn khách đạt hảo cảm 30",
+  "stat": "favor_max",
+  "target": 30,
+  "reward": 8000
+ },
+ {
+  "id": "a67",
+  "name": "Tiếng búa đầu tiên",
+  "desc": "Bán được 1 món qua đấu giá",
+  "stat": "auction_sold",
+  "target": 1,
+  "reward": 2000
+ },
+ {
+  "id": "a68",
+  "name": "Khách quen sàn đấu giá",
+  "desc": "Bán được 10 món qua đấu giá",
+  "stat": "auction_sold",
+  "target": 10,
+  "reward": 20000
+ },
+ {
+  "id": "a69",
+  "name": "Giá trên trời",
+  "desc": "Một món đấu giá chốt từ 2.000.000 LT",
+  "stat": "auction_max",
+  "target": 2000000,
+  "reward": 30000
+ },
+ {
+  "id": "a70",
+  "name": "Sửa sang tiên môn",
+  "desc": "Nâng tổng 5 bậc nâng cấp tiệm",
+  "stat": "upgrade_tiers",
+  "target": 5,
+  "reward": 3000
+ },
+ {
+  "id": "a71",
+  "name": "Tiên môn khang trang",
+  "desc": "Nâng tổng 15 bậc nâng cấp tiệm",
+  "stat": "upgrade_tiers",
+  "target": 15,
+  "reward": 20000
+ },
+ {
+  "id": "a72",
+  "name": "Tiên cung lộng lẫy",
+  "desc": "Nâng tối đa mọi nâng cấp tiệm (27 bậc)",
+  "stat": "upgrade_tiers",
+  "target": 27,
+  "reward": 100000
+ },
+ {
+  "id": "a73",
+  "name": "Sưu tầm bảo vật",
+  "desc": "Sở hữu 5 bảo vật",
+  "stat": "treasures",
+  "target": 5,
+  "reward": 5000
+ },
+ {
+  "id": "a74",
+  "name": "Bảo khố tiên môn",
+  "desc": "Sở hữu 15 bảo vật",
+  "stat": "treasures",
+  "target": 15,
+  "reward": 50000
+ },
+ {
+  "id": "a75",
+  "name": "Đủ mặt anh hào",
+  "desc": "Thuê đủ 4 tạp dịch cùng lúc",
+  "stat": "staff_active",
+  "target": 4,
+  "reward": 5000
+ },
+ {
+  "id": "a76",
+  "name": "Nhân tài hội tụ",
+  "desc": "Từng thuê 10 tạp dịch khác nhau",
+  "stat": "staff_owned",
+  "target": 10,
+  "reward": 20000
+ },
+ {
+  "id": "a78",
+  "name": "Bách chiến bất đãi",
+  "desc": "Trải qua 50 sự cố",
+  "stat": "incidents",
+  "target": 50,
+  "reward": 20000
+ },
+ {
+  "id": "a79",
+  "name": "Lễ hội đầu tiên",
+  "desc": "Mở cửa trong 1 ngày lễ",
+  "stat": "festivals",
+  "target": 1,
+  "reward": 2000
+ },
+ {
+  "id": "a80",
+  "name": "Tiên môn của lễ hội",
+  "desc": "Mở cửa trong 8 ngày lễ",
+  "stat": "festivals",
+  "target": 8,
+  "reward": 15000
+ },
+ {
+  "id": "a81",
+  "name": "Công dân gương mẫu",
+  "desc": "Đóng đủ thuế thương khóa 10 lần",
+  "stat": "tax_full",
+  "target": 10,
+  "reward": 15000
+ },
+ {
+  "id": "a82",
+  "name": "Cáo già quan trường",
+  "desc": "Khai gian hoặc đút lót 5 lần mà không bị phát hiện",
+  "stat": "tax_evade_ok",
+  "target": 5,
+  "reward": 10000
+ }
+]

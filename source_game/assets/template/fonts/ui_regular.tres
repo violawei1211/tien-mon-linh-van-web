@@ -1,0 +1,7 @@
+[gd_resource type="FontVariation" format=3]
+
+[ext_resource type="FontFile" uid="uid://vulh2wuoq11y" path="res://assets/template/fonts/NotoSans-Regular.ttf" id="1"]
+
+[resource]
+resource_name = "UI Regular: Noto Sans 400"
+base_font = ExtResource("1")

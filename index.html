@@ -1,32 +1,264 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#112d46">
-  <meta name="description" content="Tiên Môn Linh Vân — game quản lý tiên môn, thâu mua đan dược, bày linh các và phục vụ khách hữu duyên.">
-  <link rel="icon" href="game/index.icon.png">
-  <title>Tiên Môn Linh Vân</title>
-  <style>
-    :root{--ink:#173b56;--muted:#66859a;--pink:#d979a6}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Georgia,'Times New Roman',serif;background:radial-gradient(circle at 18% 0%,#fff 0 18%,transparent 45%),linear-gradient(145deg,#e7f8fc,#f9f3f8 52%,#d9edf4);min-height:100vh}
-    .shell{max-width:1180px;margin:0 auto;padding:24px 18px 48px}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:8px 2px 22px}.brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.08em}.seal{width:42px;height:42px;border:2px solid var(--pink);border-radius:50%;display:grid;place-items:center;color:var(--pink);font-size:20px;background:#fff9}.nav a{color:var(--ink);text-decoration:none;border-bottom:1px solid #9dcbd9;padding-bottom:3px;font:14px system-ui,sans-serif}
-    .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center;padding:34px 0 30px}.eyebrow{color:var(--pink);font:700 13px system-ui,sans-serif;letter-spacing:.2em}.hero h1{font-size:clamp(38px,6vw,72px);line-height:.98;margin:13px 0 18px;letter-spacing:.03em}.hero p{max-width:600px;color:var(--muted);font:16px/1.65 system-ui,sans-serif}.cta{display:inline-flex;align-items:center;gap:10px;margin-top:12px;padding:14px 21px;border-radius:999px;background:var(--ink);color:#fff;text-decoration:none;font:700 14px system-ui,sans-serif;box-shadow:0 10px 25px #173b5630}.hero-art{min-height:290px;border-radius:28px;border:1px solid #fff;background:linear-gradient(145deg,#dff7ff99,#fff7fbcc),url('game/bg.jpg') center/cover;box-shadow:0 20px 60px #173b5620;position:relative;overflow:hidden}.hero-art:after{content:'灵';position:absolute;right:12%;top:10%;font-size:180px;color:#ffffff66;font-weight:700;transform:rotate(-12deg)}.art-card{position:absolute;left:26px;bottom:24px;background:#ffffffdb;border:1px solid #fff;border-radius:18px;padding:16px 18px;box-shadow:0 12px 30px #173b5620}.art-card strong{display:block;font-size:21px}.art-card span{color:var(--muted);font:12px system-ui,sans-serif}
-    .features{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:8px 0 32px}.feature{padding:18px;border:1px solid #b7dce8;background:#ffffffa8;border-radius:18px}.feature b{display:block;margin-bottom:7px}.feature span{font:13px/1.5 system-ui,sans-serif;color:var(--muted)}
-    .game-wrap{background:#112d46;padding:14px;border-radius:28px;box-shadow:0 24px 70px #173b5630}.game-head{display:flex;align-items:center;justify-content:space-between;color:#e9f8fb;padding:7px 8px 14px;font:14px system-ui,sans-serif}.game-head small{color:#a9dff0}.game-frame{background:#000;border-radius:18px;overflow:hidden;min-height:680px}.game-frame iframe{display:block;width:100%;height:760px;border:0;background:#000}.game-note{padding:12px 8px 0;color:#a9dff0;font:12px/1.5 system-ui,sans-serif}.footer{display:flex;justify-content:space-between;gap:16px;margin-top:34px;padding-top:18px;border-top:1px solid #b7dce8;color:var(--muted);font:12px system-ui,sans-serif}
-    @media (max-width:760px){.shell{padding:14px 12px 32px}.nav{padding-bottom:10px}.nav a{display:none}.hero{grid-template-columns:1fr;padding-top:28px;gap:18px}.hero-art{min-height:210px}.features{grid-template-columns:repeat(2,1fr)}.game-wrap{padding:9px;border-radius:20px}.game-frame{min-height:650px}.game-frame iframe{height:720px}.footer{display:block}.footer span{display:block;margin-top:8px}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="icon" href="index.icon.png">
+<link rel="apple-touch-icon" href="index.apple-touch-icon.png">
+<title>Tiên Môn Linh Vận</title>
+<style>
+:root { color-scheme: dark; }
+html, body { height: 100%; }
+
+html, body, #canvas {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	color: white;
+	background-color: #0e2a3d;
+	overflow: hidden;
+	touch-action: none;
+}
+
+#canvas {
+	display: block;
+}
+
+#canvas:focus {
+	outline: none;
+}
+
+#status, #status-splash, #status-progress {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#status, #status-splash {
+	top: 0;
+	bottom: 0;
+}
+
+#status {
+	background-color: #c7ebff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+}
+
+#status-splash {
+	max-height: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+
+#status-splash.show-image--false {
+	display: none;
+}
+
+#status-splash.fullsize--true {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+#status-splash.use-filter--false {
+	image-rendering: pixelated;
+}
+
+#status-progress, #status-notice {
+	display: none;
+}
+
+#status-progress {
+	bottom: 10%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#status-notice {
+	background-color: #5b3943;
+	border-radius: 0.5rem;
+	border: 1px solid #9b3943;
+	color: #e0e0e0;
+	font-family: 'Noto Sans', 'Droid Sans', Arial, sans-serif;
+	line-height: 1.3;
+	margin: 0 2rem;
+	overflow: hidden;
+	padding: 1rem;
+	text-align: center;
+	z-index: 1;
+}
+		
+
+/* Bỏ màn hình tải: không thanh tiến trình, nền là cảnh tiên môn */
+#status { background: #c7ebff url("bg.jpg") center / cover no-repeat !important; }
+#status-progress { display: none !important; }
+
+#load-pct { position:absolute; left:0; right:0; bottom:calc(8% + env(safe-area-inset-bottom, 0px)); text-align:center;
+  font: 600 15px/1.2 system-ui, sans-serif; color:#285b7a; text-shadow:0 1px 2px rgba(255,255,255,.9); letter-spacing:.04em; }
+</style>
 </head>
 <body>
-  <main class="shell">
-    <nav class="nav"><div class="brand"><div class="seal">仙</div><span>TIÊN MÔN LINH VÂN</span></div><a href="#choi">Vào tiên môn ↓</a></nav>
-    <section class="hero">
-      <div><div class="eyebrow">MỞ CỬA · BÀY KỆ · ĐÓN KHÁCH</div><h1>Một ngày làm chủ tiên môn.</h1><p>Thâu mua linh dược, sắp xếp Linh Các, phục vụ khách hữu duyên và từng bước gây dựng danh vọng giữa chốn tu tiên.</p><a class="cta" href="#choi">Chơi bản cập nhật 24/10 <span>→</span></a></div>
-      <div class="hero-art"><div class="art-card"><strong>Ngày 1 · 08:00</strong><span>Tiên môn đang chờ được mở cửa</span></div></div>
-    </section>
-    <section class="features" aria-label="Tính năng"><div class="feature"><b>Thâu mua</b><span>Chọn hàng, số lượng và giá vốn.</span></div><div class="feature"><b>Linh Các</b><span>Bày kệ, định giá và quản lý tồn kho.</span></div><div class="feature"><b>Nhân viên</b><span>Chiêu mộ tạp dịch và xây đội ngũ.</span></div><div class="feature"><b>Danh vọng</b><span>Phục vụ khách, đạt thành tựu, mở rộng tiên môn.</span></div></section>
-    <section id="choi" class="game-wrap"><div class="game-head"><strong>TIÊN MÔN LINH VÂN · BẢN WEB</strong><small>Build 24/10/2026</small></div><div class="game-frame"><iframe title="Game Tiên Môn Linh Vân" src="game/index.html" allow="autoplay; fullscreen" loading="eager"></iframe></div><div class="game-note">Nếu game chưa hiện, hãy chờ vài giây để tải dữ liệu WebAssembly. Tiến trình được lưu trong trình duyệt của bạn.</div></section>
-    <footer class="footer"><span>Tiên Môn Linh Vân · quản lý tiên môn cổ trang</span><span>Chơi trực tiếp trên trình duyệt · không cần cài đặt</span></footer>
-  </main>
+
+		<canvas id="canvas">
+			Your browser does not support the canvas tag.
+		</canvas>
+
+		<noscript>
+			Your browser does not support JavaScript.
+		</noscript>
+
+		<div id="status">
+			<img id="status-splash" class="show-image--false fullsize--true use-filter--true" alt="">
+			<progress id="status-progress"></progress>
+			<div id="status-notice"></div>
+			<div id="load-pct">Đang tải tiên môn…</div>
+		</div>
+
+		<script>
+/* Giới hạn độ nét vẽ trên điện thoại (màn hình DPR 2-3) ở 1.5 để giảm tải vẽ, phản hồi nhanh hơn. */
+(function(){var r=window.devicePixelRatio||1;if(r>1.5){try{Object.defineProperty(window,'devicePixelRatio',{get:function(){return 1.5;},configurable:true});}catch(e){}}})();
+</script>
+<script>
+/* Sao lưu bằng mã 7 ký tự: chạy bằng start_server.py thì lưu trên máy chủ (api/backup); host tĩnh thì lưu trong trình duyệt. */
+window.tmlvBackup = (function () {
+  var ABC = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
+  function gen() { var s; do { s = ''; for (var i = 0; i < 7; i++) s += ABC[Math.floor(Math.random() * ABC.length)]; } while (!/[A-Z]/.test(s) || !/[0-9]/.test(s)); return s; }
+  function key(c) { return 'tmlv_backup_' + c; }
+  function localSave(text) { var c; for (var k = 0; k < 20; k++) { c = gen(); if (localStorage.getItem(key(c)) === null) break; } localStorage.setItem(key(c), text); return c; }
+  async function save(text) {
+    try { var r = await fetch('api/backup', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: text });
+      if (r.ok) return (await r.json()).code; } catch (e) {}
+    return localSave(text);
+  }
+  async function load(code) {
+    code = String(code || '').trim().toUpperCase();
+    if (!/^[A-Z0-9]{7}$/.test(code)) throw new Error('Mã sao lưu gồm đúng 7 ký tự chữ và số.');
+    try { var r = await fetch('api/backup/' + code); if (r.ok) return await r.text(); } catch (e) {}
+    var t = localStorage.getItem(key(code));
+    if (t === null) throw new Error('Không tìm thấy mã ' + code + '.');
+    return t;
+  }
+  return {
+    saveCb: function (text, ok, fail) { save(String(text)).then(ok, function (e) { fail((e && e.message) || 'Không tạo được mã sao lưu.'); }); },
+    loadCb: function (code, ok, fail) { load(code).then(ok, function (e) { fail((e && e.message) || 'Không khôi phục được.'); }); }
+  };
+})();
+</script>
+<script src="index.js"></script>
+		<script>
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":15624116,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_THREADS_ENABLED = false;
+const engine = new Engine(GODOT_CONFIG);
+
+(function () {
+	const statusOverlay = document.getElementById('status');
+	const statusProgress = document.getElementById('status-progress');
+	const statusNotice = document.getElementById('status-notice');
+
+	let initializing = true;
+	let statusMode = '';
+
+	function setStatusMode(mode) {
+		if (statusMode === mode || !initializing) {
+			return;
+		}
+		if (mode === 'hidden') {
+			statusOverlay.remove();
+			initializing = false;
+			return;
+		}
+		statusOverlay.style.visibility = 'visible';
+		statusProgress.style.display = mode === 'progress' ? 'block' : 'none';
+		statusNotice.style.display = mode === 'notice' ? 'block' : 'none';
+		statusMode = mode;
+	}
+
+	function setStatusNotice(text) {
+		while (statusNotice.lastChild) {
+			statusNotice.removeChild(statusNotice.lastChild);
+		}
+		const lines = text.split('\n');
+		lines.forEach((line) => {
+			statusNotice.appendChild(document.createTextNode(line));
+			statusNotice.appendChild(document.createElement('br'));
+		});
+	}
+
+	function displayFailureNotice(err) {
+		console.error(err);
+		if (err instanceof Error) {
+			setStatusNotice(err.message);
+		} else if (typeof err === 'string') {
+			setStatusNotice(err);
+		} else {
+			setStatusNotice('An unknown error occurred.');
+		}
+		setStatusMode('notice');
+		initializing = false;
+	}
+
+	const missing = Engine.getMissingFeatures({
+		threads: GODOT_THREADS_ENABLED,
+	});
+
+	if (missing.length !== 0) {
+		if (GODOT_CONFIG['serviceWorker'] && GODOT_CONFIG['ensureCrossOriginIsolationHeaders'] && 'serviceWorker' in navigator) {
+			let serviceWorkerRegistrationPromise;
+			try {
+				serviceWorkerRegistrationPromise = navigator.serviceWorker.getRegistration();
+			} catch (err) {
+				serviceWorkerRegistrationPromise = Promise.reject(new Error('Service worker registration failed.'));
+			}
+			// There's a chance that installing the service worker would fix the issue
+			Promise.race([
+				serviceWorkerRegistrationPromise.then((registration) => {
+					if (registration != null) {
+						return Promise.reject(new Error('Service worker already exists.'));
+					}
+					return registration;
+				}).then(() => engine.installServiceWorker()),
+				// For some reason, `getRegistration()` can stall
+				new Promise((resolve) => {
+					setTimeout(() => resolve(), 2000);
+				}),
+			]).then(() => {
+				// Reload if there was no error.
+				window.location.reload();
+			}).catch((err) => {
+				console.error('Error while registering service worker:', err);
+			});
+		} else {
+			// Display the message as usual
+			const missingMsg = 'Error\nThe following features required to run Godot projects on the Web are missing:\n';
+			displayFailureNotice(missingMsg + missing.join('\n'));
+		}
+	} else {
+		setStatusMode('progress');
+		engine.startGame({
+			'onProgress': function (current, total) {
+				if (current > 0 && total > 0) {
+					const pctEl = document.getElementById('load-pct');
+					if (pctEl) pctEl.textContent = 'Đang tải tiên môn… ' + Math.min(100, Math.floor(current * 100 / total)) + '%';
+					statusProgress.value = current;
+					statusProgress.max = total;
+				} else {
+					statusProgress.removeAttribute('value');
+					statusProgress.removeAttribute('max');
+				}
+			},
+		}).then(() => {
+			setStatusMode('hidden');
+		}, displayFailureNotice);
+	}
+}());
+		</script>
+	
 </body>
 </html>

@@ -1,16 +1,17 @@
-# Tiên Môn Linh Vân — GitHub Pages
+# Tiên Môn Linh Vân — bản Web và mã nguồn
 
-Bản static website mới nhất ngày 24/10/2026.
+Repository này chứa lại nội dung từ file ZIP `tien-mon-linh-van-game-2026-10-24(1).zip`.
 
-## Cách đưa lên GitHub Pages
+- Bản Web Godot được đặt ở thư mục gốc để GitHub Pages chạy trực tiếp.
+- Mã nguồn Godot nằm trong `source_game/`.
+- Các file chạy local nằm trong `server_html5/`.
+- Không còn trang landing/giới thiệu bọc bên ngoài game.
 
-1. Tạo repository mới.
-2. Giải nén toàn bộ ZIP vào thư mục gốc repository.
-3. Commit và push branch `main`.
-4. Vào **Settings → Pages**.
-5. Chọn **Deploy from a branch**, branch `main`, thư mục `/ (root)`.
-6. Mở URL GitHub Pages được cấp.
+Chạy local:
 
-`index.html` ở root là trang HTML riêng; game Godot Web nằm trong `game/` và được nhúng tự động. Không cần Python server hay backend.
+```bash
+cd server_html5
+python3 start_server.py
+```
 
-Mã sao lưu trên GitHub Pages được lưu trong trình duyệt của người chơi vì GitHub Pages là static hosting.
+Mở bản online: https://violawei1211.github.io/tien-mon-linh-van-web/
