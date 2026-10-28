@@ -93,6 +93,8 @@ const CLOTHING_OUTDATED_DAYS: = 5
 const ACCESSORY_OUTDATED_DAYS: = 3
 const SIZE_REQUIRED_CATEGORIES: = ["Đầm", "Quần áo", "Đồ nam"]
 const TOTAL_CHARACTER_COUNT: = 53
+# Nhân vật có ảnh bị cắt phẳng ở cạnh trái/phải: luôn đứng ở phía đó và áp sát mép màn hình (chỉ số avatar -> phía).
+const CHARACTER_FLAT_SIDE: Dictionary = {0: "right", 1: "right", 3: "left", 4: "right", 6: "right", 7: "right", 8: "left", 9: "right", 10: "left", 11: "right", 12: "left", 13: "left", 14: "left", 18: "right", 19: "left", 21: "right", 22: "right", 23: "right", 24: "right", 25: "right", 26: "right", 28: "right", 30: "left", 31: "right", 32: "right", 33: "right", 34: "right", 35: "right", 36: "right", 37: "right", 39: "left", 42: "right", 43: "right", 44: "right", 45: "right", 46: "right", 47: "right", 48: "right", 49: "right", 50: "right", 51: "right", 52: "right"}
 const LEVEL_XP_THRESHOLDS: = [0, 400, 800, 1300, 1900, 2600, 3400, 4300, 8300, 10400, 16600, 21000]
 # Số linh thạch phải đang có để lên level tương ứng (chỉ số = level - 1).
 const LEVEL_MONEY_REQUIREMENTS: = [0, 0, 6000, 9000, 17000, 30000, 50000, 100000, 300000, 1200000, 6000000, 36000000]
@@ -468,7 +470,7 @@ func _build_ui() -> void :
 
 func _show_store() -> void :
 	mode_label.text = ""
-	_clear_main();shelf_stock_labels.clear();shelf_expire_marks.clear()
+	_clear_main();shelf_stock_labels.clear();shelf_expire_marks.clear();shelf_store_buttons.clear()
 	for sec in SHELF_SECTIONS:
 		var a: int = sec[1];var b: int = mini(int(sec[2]), shelves.size())
 		if str(sec[0]) != "":
@@ -577,6 +579,7 @@ func _shelf_card_inner(index: int, shelf: Dictionary, closing: bool) -> VBoxCont
 		var stock_frame: = _box(Color("fffaf0"), Color("d4a72c"), 2, 15);stock_frame.content_margin_left = 0;stock_frame.content_margin_right = 0;stock_frame.content_margin_top = 0;stock_frame.content_margin_bottom = 0;stock_badge.add_theme_stylebox_override("panel", stock_frame)
 		var stock_label: = _label(str(shelf["stock"]), 9, Color("285b7a"));stock_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER;stock_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER;stock_badge.add_child(stock_label);product_cell.add_child(stock_badge)
 		shelf_stock_labels[index] = stock_label
+		shelf_store_buttons[index] = product_button
 		var store_expire: = _expire_badge(_expiring_count(shelf, product_id), true);store_expire.position = Vector2(92, 31);product_cell.add_child(store_expire)
 		shelf_expire_marks[index] = store_expire
 		var item: = _label(str(products[product_id]["name"]), 10, Color("36556b"));item.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER;item.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART;item.custom_minimum_size = Vector2(card_width, 0);item.size_flags_horizontal = Control.SIZE_FILL;card.add_child(item)
@@ -1058,7 +1061,8 @@ func _update_cards() -> void :
 		if customer_patience_label: customer_patience_label.text = "Kiên nhẫn %ds" % int(customer["patience"])
 		if customer_delivery_label: customer_delivery_label.text = _delivery_status_text(customer)
 		return
-	var portrait_screen_side: String = str(customer.get("screen_side", "left"))
+	var flat_side: String = str(CHARACTER_FLAT_SIDE.get(int(customer["avatar"]), ""))
+	var portrait_screen_side: String = flat_side if not flat_side.is_empty() else str(customer.get("screen_side", "left"))
 	store_content.move_child(customer_portrait_frame, 1 if portrait_screen_side == "right" else 0)
 	for child in customer_card.get_children(): child.queue_free()
 	for child in customer_portrait_frame.get_children(): child.queue_free()
@@ -1068,9 +1072,16 @@ func _update_cards() -> void :
 	var content: = VBoxContainer.new();content.add_theme_constant_override("separation", 2);content.size_flags_vertical = Control.SIZE_EXPAND_FILL;customer_card.add_child(content)
 	var portrait_margin: = MarginContainer.new()
 	for side in ["left", "right"]: portrait_margin.add_theme_constant_override("margin_%s" % side, 3)
+	# Cạnh ảnh bị phẳng -> đẩy ảnh ra sát mép màn hình (khung chân dung cách mép 20px), giữ nguyên kích thước ảnh.
+	var edge_gap: int = int(store_content.position.x) if flat_side == "left" else int(540 - store_content.position.x - store_content.size.x)
+	if flat_side == "left":
+		portrait_margin.add_theme_constant_override("margin_left", -edge_gap);portrait_margin.add_theme_constant_override("margin_right", 6 + edge_gap)
+	elif flat_side == "right":
+		portrait_margin.add_theme_constant_override("margin_right", -edge_gap);portrait_margin.add_theme_constant_override("margin_left", 6 + edge_gap)
+	customer_portrait_frame.clip_contents = flat_side.is_empty()
 	portrait_margin.add_theme_constant_override("margin_top", 0);portrait_margin.add_theme_constant_override("margin_bottom", 0)
 	portrait_margin.size_flags_horizontal = Control.SIZE_EXPAND_FILL;portrait_margin.size_flags_vertical = Control.SIZE_EXPAND_FILL;customer_portrait_frame.add_child(portrait_margin)
-	portrait_margin.clip_contents = true
+	portrait_margin.clip_contents = flat_side.is_empty()
 	var customer_avatar: = _customer_icon(int(customer["avatar"]), Vector2(183, 237));customer_avatar.size_flags_horizontal = Control.SIZE_EXPAND_FILL;customer_avatar.size_flags_vertical = Control.SIZE_SHRINK_END;portrait_margin.add_child(customer_avatar)
 	customer_avatar_control = customer_avatar
 	var details: = VBoxContainer.new();details.size_flags_horizontal = Control.SIZE_EXPAND_FILL;content.add_child(details)
@@ -1149,7 +1160,7 @@ func _deliver_shelf_item(shelf_index: int, product_id: int, selected_size: Strin
 			return
 	else:
 		selected_size = ""
-	if not by_staff and not skip_refining and _product_requires_refining(product):
+	if not skip_refining and _product_requires_refining(product):
 		_open_refining_minigame(shelf_index, product_id, selected_size, source_button, size_menu, by_staff)
 		return
 	var delivered_items: Array = customer.get("delivered_items", [])
@@ -1163,8 +1174,12 @@ func _deliver_shelf_item(shelf_index: int, product_id: int, selected_size: Strin
 	_set_item_src(customer, item_index, str(shelves[shelf_index].get("kind", "")), 0)
 	customer["delivery_animations_pending"] = int(customer.get("delivery_animations_pending", 0)) + 1
 	if size_menu != null: size_menu.visible = false
+	if by_staff and (source_button == null or not is_instance_valid(source_button)):
+		# Nhân viên giao: món bay từ kệ tới khách giống người chơi giao.
+		var staff_src: Variant = shelf_store_buttons.get(shelf_index, null)
+		if staff_src != null and is_instance_valid(staff_src) and (staff_src as Control).is_visible_in_tree(): source_button = staff_src
 	_consume_stock_unit(shelves[shelf_index])
-	if not by_staff: _sfx("deliver")
+	_sfx("deliver")
 	var shelf_empty: = int(shelves[shelf_index]["stock"]) <= 0
 	_update_cards()
 	if source_button != null and is_instance_valid(source_button) and customer_avatar_control != null and is_instance_valid(customer_avatar_control):
@@ -1179,6 +1194,12 @@ func _open_refining_minigame(shelf_index: int, product_id: int, selected_size: S
 	if is_instance_valid(active_refining_minigame):
 		return
 	if product_id < 0 or product_id >= products.size():
+		return
+	if _prerefined(product_id) > 0:
+		var ready_qty: int = mini(_refine_batch_size(shelf_index, product_id), _prerefined(product_id))
+		products[product_id]["prerefined"] = _prerefined(product_id) - ready_qty
+		_show_toast("%d %s đã hợp thành sẵn từ nguyên liệu · giao ngay." % [ready_qty, products[product_id]["name"]])
+		for k in range(ready_qty): _deliver_shelf_item(shelf_index, product_id, selected_size, source_button if k == 0 else null, size_menu, by_staff, true)
 		return
 	var missing_materials: Array[String] = _missing_refining_materials(product_id)
 	if not missing_materials.is_empty():
@@ -1265,11 +1286,17 @@ func _close_refining_minigame() -> void:
 
 func _staff_serve_next_item() -> void :
 	if queue.is_empty(): return
+	if is_instance_valid(active_refining_minigame): return
 	var customer: Dictionary = queue[0]
 	var delivered_items: Array = customer.get("delivered_items", [])
 	for item_index in range(customer["items"].size()):
 		if item_index >= delivered_items.size() or bool(delivered_items[item_index]): continue
 		var product_id: = int(customer["items"][item_index])
+		if _product_requires_refining(products[product_id]) and not _missing_refining_materials(product_id).is_empty():
+			if _staff_refine_warned_order != int(customer.get("order_id", -1)):
+				_staff_refine_warned_order = int(customer.get("order_id", -1))
+				_show_toast("Nhân viên chưa giao được %s: thiếu nguyên liệu tinh luyện (%s)." % [products[product_id]["name"], ", ".join(_missing_refining_materials(product_id))])
+			continue
 		for shelf_index in range(shelves.size()):
 			if int(shelves[shelf_index]["product"]) != product_id or int(shelves[shelf_index]["stock"]) <= 0: continue
 			var chosen_size: = ""
@@ -1615,6 +1642,9 @@ func _paid_product_unlock_card(index: int) -> PanelContainer:
 	if level_locked:
 		detail_text = "Mở ở Level %d. Đạt cấp này trước, sau đó mới có thể trả phí mở riêng %s LT." % [required_level, cost_text]
 	var detail: = _label(detail_text, 9, Color("4e6d80"));detail.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART;info.add_child(detail)
+	var locked_recipe: String = _recipe_summary(index)
+	if not locked_recipe.is_empty():
+		var locked_recipe_label: = _label("Nguyên liệu tinh luyện: %s" % locked_recipe, 9, Color("b07a1e"));locked_recipe_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART;info.add_child(locked_recipe_label)
 	var button_text: String = "MỞ Ở LEVEL %d" % required_level if level_locked else "MỞ KHÓA RIÊNG · %s LT" % cost_text
 	var unlock: = _button(button_text, 10);unlock.custom_minimum_size = Vector2(0, 32);unlock.disabled = level_locked or money < cost
 	unlock.tooltip_text = "Đạt Level %d trước khi mở riêng %s." % [required_level, p["name"]] if level_locked else "Chỉ mở khóa %s; quyền này được lưu trên thiết bị/trình duyệt." % p["name"]
@@ -1651,6 +1681,7 @@ func _show_shelf_adjustments() -> void :
 		_set_currency_badge(report_text, money, 18, Color("e5aa28"))
 	active_close_tab = "shelves"
 	call_deferred("_tut_event", "tab_shelves")
+	_auto_craft_from_materials()
 	if _use_tab_page("shelves"): return
 	close_content.add_child(_section_heading("res://assets/boutique/ui_icons/icon_shelf.png", "LINH CÁC · Chọn sản phẩm đã mở để bày lên từng kệ. · Quản lý giá bán", 12))
 	close_content.add_child(_shelf_legend())
@@ -2385,6 +2416,11 @@ func _recipe_summary(product_id: int) -> String:
 	return " + ".join(parts)
 
 func _missing_refining_materials(product_id: int) -> Array[String]:
+	# Món đã hợp thành sẵn từ nguyên liệu thì không cần nguyên liệu nữa.
+	if _prerefined(product_id) > 0: return []
+	return _missing_refining_materials_raw(product_id)
+
+func _missing_refining_materials_raw(product_id: int) -> Array[String]:
 	var missing: Array[String] = []
 	for entry in _recipe_for(product_id):
 		var material_name: String = str(entry["name"])
@@ -2395,10 +2431,53 @@ func _missing_refining_materials(product_id: int) -> Array[String]:
 	return missing
 
 func _consume_refining_materials(product_id: int) -> void:
+	if _prerefined(product_id) > 0:
+		products[product_id]["prerefined"] = _prerefined(product_id) - 1
+		return
+	_consume_refining_materials_raw(product_id)
+
+func _consume_refining_materials_raw(product_id: int) -> void:
 	for entry in _recipe_for(product_id):
 		var material_name: String = str(entry["name"])
 		var used: = int(entry["qty"]) if _up("refine_room") < 3 else int(ceil(int(entry["qty"]) * 0.7))
 		material_stock[material_name] = maxi(0, int(material_stock.get(material_name, 0)) - used)
+
+# ---------- Hợp thành vật phẩm từ nguyên liệu ----------
+# Đủ nguyên liệu của một vật phẩm cần tinh luyện đã mở -> tự hợp thành vật phẩm đó, đưa vào kho
+# (đủ cho 1 món thì hợp 1, đủ cho nhiều thì hợp nhiều). Món hợp thành đã tinh luyện sẵn: giao khách không cần tinh luyện lại.
+func _prerefined(product_id: int) -> int:
+	if product_id < 0 or product_id >= products.size(): return 0
+	return int(products[product_id].get("prerefined", 0))
+
+func _product_units_total(product_id: int) -> int:
+	var n: int = int(products[product_id].get("stock", 0))
+	for sh in shelves:
+		if int(sh.get("product", -1)) == product_id: n += int(sh.get("stock", 0))
+		if sh.get("combo", []).has(product_id): n += int(sh.get("cstock", 0))
+	return n
+
+func _auto_craft_from_materials(announce: bool = true) -> String:
+	var made: PackedStringArray = []
+	for pid in range(products.size()):
+		var p: Dictionary = products[pid]
+		# Món tiêu tán/bán hết thì bỏ phần đếm thừa.
+		if _prerefined(pid) > 0: p["prerefined"] = mini(_prerefined(pid), _product_units_total(pid))
+		if not _is_product_available(pid) or not _product_requires_refining(p) or _recipe_for(pid).is_empty(): continue
+		var n: = 0
+		while _missing_refining_materials_raw(pid).is_empty() and _warehouse_used() < _warehouse_cap():
+			_consume_refining_materials_raw(pid)
+			var ages: = _normalize_stock_ages(p.get("stock_ages", []), int(p.get("stock", 0)))
+			ages.append(0)
+			p["stock_ages"] = ages;p["stock"] = ages.size()
+			p["prerefined"] = _prerefined(pid) + 1
+			n += 1
+		if n > 0: made.append("%d %s" % [n, p["name"]])
+	if made.is_empty(): return ""
+	var msg: String = "Đủ nguyên liệu · đã hợp thành %s, cất vào kho." % ", ".join(made)
+	if _warehouse_used() >= _warehouse_cap(): msg += " Linh khố đã đầy, phần nguyên liệu còn lại để dành."
+	if announce: _sfx("refine");_incident_push("HỢP THÀNH VẬT PHẨM", msg)
+	tab_sigs.erase("shelves");tab_sigs.erase("imports")
+	return msg
 
 func _buy_material(material_name: String, amount: int) -> void:
 	# Giá không hiển thị trước: mỗi lần bấm MUA, chợ ra một giá ngẫu nhiên.
@@ -2418,11 +2497,12 @@ func _buy_material(material_name: String, amount: int) -> void:
 		_log_expense("Sự cố: mua phải %s giả" % material_name, 0)
 		return
 	material_stock[material_name] = int(material_stock.get(material_name, 0)) + amount
+	var crafted: String = _auto_craft_from_materials(false)
 	_update_money_display()
 	if close_content != null and active_close_tab == "market":
 		_refresh_market_card(material_name)
 	_update_ui()
-	_show_market_popup("ĐÃ MUA", "Bạn đã mua %s với giá %s linh thạch." % [material_name, _fmt_thousands(total)])
+	_show_market_popup("ĐÃ MUA", "Bạn đã mua %s với giá %s linh thạch.%s" % [material_name, _fmt_thousands(total), ("\n\n" + crafted) if not crafted.is_empty() else ""])
 
 # ---------- Thương Hội · Chợ Thành Trì ----------
 const MARKET_SORT_NAMES: Array[String] = ["Tên A → Z", "Có trong kho trước"]
@@ -2545,7 +2625,7 @@ func _show_market_popup(title_text: String, body_text: String, extra_lines: Pack
 # Đang trong ca thì không lưu; nếu thoát giữa ca, lần sau vào lại từ đầu ca đó.
 const GAME_SAVE_PATH: = "user://tien_mon_linh_van_save.json"
 const GAME_SAVE_VERSION: = 1
-const PRODUCT_SAVE_KEYS: = ["stock", "stock_ages", "incoming", "incoming_quantity", "ready_at", "order_quantity", "price"]
+const PRODUCT_SAVE_KEYS: = ["stock", "stock_ages", "incoming", "incoming_quantity", "ready_at", "order_quantity", "price", "prerefined"]
 var _last_save_text: String = ""
 # true khi đang ở bảng cuối ca (đã đóng ca, chưa sang ngày mới)
 var day_closed_panel: bool = false
@@ -2697,6 +2777,8 @@ func _set_pause_glyph(is_paused: bool) -> void:
 # ---------- Tăng tốc bảng Bố trí: giữ trang của từng tab, chỉ cập nhật phần thay đổi ----------
 var tab_pages: Dictionary = {}
 var shelf_stock_labels: Dictionary = {}
+var shelf_store_buttons: Dictionary = {}
+var _staff_refine_warned_order: int = -1
 var shelf_expire_marks: Dictionary = {}
 var tab_sigs: Dictionary = {}
 var tab_scroll: Dictionary = {}
@@ -2722,6 +2804,8 @@ func _use_tab_page(tab: String) -> bool:
 	for key in tab_pages.keys():
 		if tab_pages[key] == current: tab_scroll[key] = close_scroll.scroll_vertical
 	var cached: Variant = tab_pages.get(tab, null)
+	# Dựng lại đúng tab đang mở (bấm nút trong trang) -> giữ nguyên vị trí cuộn, không nhảy về đầu trang.
+	var keep_scroll: int = close_scroll.scroll_vertical if (cached != null and current == cached) else -1
 	if current != cached or cached == null: _sfx("tab")
 	if cached != null and is_instance_valid(cached) and int(tab_sigs.get(tab, 0)) == _data_sig():
 		if current != cached:
@@ -2746,9 +2830,21 @@ func _use_tab_page(tab: String) -> bool:
 	if tab == "imports": import_card_nodes.clear()
 	if tab == "market": market_card_nodes.clear()
 	price_fields.clear()
-	close_scroll.set_deferred("scroll_vertical", 0)
+	if keep_scroll > 0:
+		tab_scroll[tab] = keep_scroll
+		_restore_tab_scroll(page, keep_scroll)
+	else:
+		close_scroll.set_deferred("scroll_vertical", 0)
 	call_deferred("_store_tab_sig", tab)
 	return false
+
+func _restore_tab_scroll(page: Node, value: int) -> void:
+	# Chờ trang mới dựng xong và tính lại chiều cao rồi mới cuộn về chỗ cũ.
+	close_scroll.scroll_vertical = value
+	for _i in range(3):
+		await get_tree().process_frame
+		if not is_instance_valid(close_scroll) or not is_instance_valid(page) or page.get_parent() != close_scroll: return
+		close_scroll.scroll_vertical = value
 
 func _store_tab_sig(tab: String) -> void:
 	if tab_pages.has(tab): tab_sigs[tab] = _data_sig()
@@ -4871,6 +4967,7 @@ func _expedition_finish(e: Dictionary, choice: String) -> void:
 		lines.append("Ma tu Huyết Ảnh ôm hết nguyên liệu và trang bị của hắn bỏ trốn!")
 		gear["huyet_anh"] = []
 	for mat in got.keys(): material_stock[mat] = int(material_stock.get(mat, 0)) + int(got[mat])
+	if not got.is_empty(): call_deferred("_auto_craft_from_materials")
 	var got_parts: PackedStringArray = []
 	for mat in got.keys(): got_parts.append("%s ×%d" % [mat, int(got[mat])])
 	var head: = "THÀNH CÔNG LỚN" if great else ("Thành công" if success else "Thất bại")
@@ -6278,7 +6375,9 @@ func _letter_new_day() -> void:
 	sender = str(pick[0]);text = str(pick[1])
 	if pick.size() > 2:
 		if str(pick[2]) == "money": money += int(pick[3]);_update_money_display()
-		elif str(pick[2]) == "mat": material_stock[str(pick[3])] = int(material_stock.get(str(pick[3]), 0)) + 1
+		elif str(pick[2]) == "mat":
+			material_stock[str(pick[3])] = int(material_stock.get(str(pick[3]), 0)) + 1
+			call_deferred("_auto_craft_from_materials")
 	_incident_push("THƯ SÁNG NAY", "Từ: %s\n\n%s" % [sender, text])
 
 

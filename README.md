@@ -1,11 +1,11 @@
-# Tiên Môn Linh Vân — bản Web và mã nguồn
+# Tiên Môn Linh Vận — bản Web và mã nguồn
 
-Repository này chứa lại nội dung từ file ZIP `tien-mon-linh-van-game-2026-10-24(1).zip`.
+Repository này được cập nhật từ file ZIP `tien-mon-linh-van-game-2026-10-28.zip`.
 
-- Bản Web Godot được đặt ở thư mục gốc để GitHub Pages chạy trực tiếp.
+- Bản Web Godot mới nhất nằm ở thư mục gốc để GitHub Pages chạy trực tiếp.
 - Mã nguồn Godot nằm trong `source_game/`.
 - Các file chạy local nằm trong `server_html5/`.
-- Không còn trang landing/giới thiệu bọc bên ngoài game.
+- Không có trang landing/giới thiệu bọc bên ngoài game.
 
 Chạy local:
 

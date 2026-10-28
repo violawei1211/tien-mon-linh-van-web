@@ -1,0 +1,31 @@
+Tiên Môn Linh Vận - cập nhật 2026-10-26
+
+1. Kệ bộ quà (và mọi trang trong bảng Bố trí): bấm +1 BỘ, GỠ, CHỌN MÓN, chọn món, GHÉP 1 BỘ...
+   màn hình giữ nguyên vị trí đang xem, không bị trả về đầu trang.
+   (scripts/main.gd: _use_tab_page + hàm mới _restore_tab_scroll)
+2. Thẻ vật phẩm đang khóa trong Thâu mua: ghi thêm dòng "Nguyên liệu tinh luyện: ..."
+   cho các món Trung/Thượng phẩm cần nguyên liệu (giống thẻ vật phẩm đã mở).
+   (scripts/main.gd: _paid_product_unlock_card)
+
+Cách build: máy build không có Godot nên index.pck được vá trực tiếp từ bản 24/10:
+bỏ scripts/main.gdc + main.gd.remap, thay bằng scripts/main.gd (dạng text). Godot tự biên dịch khi chạy.
+Lệnh: python3 tools_repack_pck.py <pck gốc> source_game/scripts/main.gd <pck mới>
+Khi có Godot 4.7.2 thì nên export lại chuẩn từ source_game (đã chứa sửa đổi).
+
+3. Hợp thành vật phẩm từ nguyên liệu (Linh Các):
+   Khi kho nguyên liệu đủ công thức của một vật phẩm cần tinh luyện ĐÃ MỞ, game tự hợp thành vật phẩm đó
+   và cất vào kho - đủ cho 1 món thì hợp 1, đủ cho nhiều thì hợp hết. Kiểm tra lúc: mua nguyên liệu ở Thương Hội,
+   đội thám hiểm mang nguyên liệu về, thư biếu nguyên liệu, và mỗi lần mở tab Linh Các. Có popup "HỢP THÀNH VẬT PHẨM".
+   Món hợp thành đã tinh luyện sẵn: giao khách, ghép bộ quà, đơn truyền tin không cần tinh luyện/nguyên liệu lại.
+   Giới hạn bởi sức chứa Linh khố; nguyên liệu dư để dành. Món chưa mở hoặc không có công thức thì không hợp.
+   (scripts/main.gd: _auto_craft_from_materials, _prerefined; lưu game thêm khóa "prerefined")
+
+4. Nhân viên bán món cần tinh luyện cũng phải tinh luyện (trước đây nhân viên giao thẳng, không tốn nguyên liệu).
+   Có Tiểu Hỏa / Cát sư phụ thì họ tự tinh luyện; không có thì mở màn Tinh Luyện cho người chơi.
+   Thiếu nguyên liệu: nhân viên bỏ qua món đó, giao món khác, báo 1 lần mỗi khách.
+5. Nhân viên giao hàng có hiệu ứng món bay từ kệ tới khách + âm thanh giao, giống người chơi giao.
+
+6. Chân dung khách có cạnh trái/phải bị cắt phẳng: luôn đứng phía cạnh phẳng và áp sát mép màn hình
+   (CHARACTER_FLAT_SIDE, 42/53 nhân vật). Nhân vật không bị phẳng giữ vị trí cũ.
+
+7. Đổi level: Huyền Thiết Trọng Kiếm xuống level 2 (phí mở 9.000 LT), Thần Thú Huyết Đan lên level 3 (phí mở 12.000 LT). (config/products.json)
